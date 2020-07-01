@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 class Nav extends Component{
@@ -11,16 +12,16 @@ class Nav extends Component{
         <a href="#" class="logo">Reva Hack</a>
         <ul class="main-nav" id="js-menu">
             <li>
-                <a href=".section-faq" class="nav-links">About us</a>
+            <Link to="#section-about" class="nav-links">About us</Link>
             </li>
             <li>
-                <a href="#" class="nav-links">Sponsors</a>
+            <Link to="#section-sponsor" class="nav-links">Sponsors</Link>
             </li>
             <li>
-                <a href="#" class="nav-links">Speakers</a>
+            <Link to="#section-speaker" class="nav-links">Speakers</Link>
             </li>
             <li>
-                <a href="#" class="nav-links">Team</a>
+            <Link to="#section-team" class="nav-links">Team</Link>
             </li>
         </ul>
     </nav>

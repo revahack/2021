@@ -9,7 +9,7 @@ import devfolio from '../../img/Sponsors/Devfolio.png';
 class Sponsors extends Component{
     render(){
         return(
-            <div className = "section-sponsor">
+            <div className = "section-sponsor" id="section-sponsor">
             <div className="u-center-text u-margin-bottom-big">
             <h2 className="heading-secondary">Sponsors</h2>
             </div>

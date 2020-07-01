@@ -61,11 +61,24 @@
 
     // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
     function myFunction() {
-      if (window.pageYOffset >= sticky) {
+      if (window.pageYOffset > sticky) {
         navbar.classList.add("sticky")
+        navbar.classList.add("content")
       } else {
         navbar.classList.remove("sticky");
       }
     }
+//     window.scroll({
+//   top: 2500, 
+//   left: 0, 
+//   behavior: 'smooth'
+// });
+
+// // Scroll certain amounts from current position 
+// window.scrollBy({ 
+//   top: 100, // could be negative value
+//   left: 0, 
+//   behavior: 'smooth' 
+// });
   </script>
 </html>

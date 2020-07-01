@@ -54,7 +54,7 @@
   /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
   .sticky + .content {
     padding-top: 6rem;
-    margin-right: 3rem;
+   
   }
 
 @media screen and (min-width: 768px) {
