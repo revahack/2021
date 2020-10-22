@@ -1,5 +1,4 @@
 import React from "react";
-import comingSoon from "../images/coming-soon.png";
 import "../css/Speakers.css";
 import Kunal_Kushwaha from "../images/speakers/Kunal_Kushwaha.jpg";
 import Punit_Chawla from "../images/speakers/Punit_Chawla.jpg";

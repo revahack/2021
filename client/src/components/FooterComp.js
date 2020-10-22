@@ -39,8 +39,8 @@ class Footer extends Component {
               <a href="https://drive.google.com/file/d/1PcIV5t9GzbS7np44Dr6cfAgR651v5wNI/view?usp=sharing" target="blank" className="butlink left">Privacy Policy</a><br /><br />
               <a href="https://drive.google.com/file/d/1mz5f8GeoUSw4qkSCF-JaMZTv5TXPeuBD/view?usp=sharing" target="blank" className="butlink left">Terms and Conditions</a><br /><br />
             </div>
-            <a href="http://instagram.com/dscreva"><img src={logo_instagram} className="icon left" alt="instagram" /></a>
-            <a href="https://www.youtube.com/channel/UCYHRdTN9GDqUS7rIFE1noBw?sub_confirmation=1"><img src={logo_youtube} className="icon left leftpadicon" alt="youtube"  style={{width:"60px"}}/></a>
+            <a href="http://instagram.com/dscreva"><img src={logo_instagram} className="icon left defdark" alt="instagram" /></a>
+            <a href="https://www.youtube.com/channel/UCYHRdTN9GDqUS7rIFE1noBw?sub_confirmation=1"><img src={logo_youtube} className="icon left leftpadicon defdark" alt="youtube"  style={{width:"60px"}}/></a>
             <br /><br /><br />
             <br /><br /><br />
           </div>

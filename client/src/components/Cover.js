@@ -28,7 +28,7 @@ function Cover(props) {
         <p>04-07 November</p>
         <br />
 
-        <img src={DSC} className="associate" alt="DSC" />
+        <img src={DSC} className="associate def" alt="DSC" />
         
         <button id="devfolio-apply-now" className="devfolio-btn">
           <svg

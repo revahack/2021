@@ -42,3 +42,19 @@
   }
 
 }
+
+.trackimg{
+  width: 340px;
+  height: auto;
+  overflow: hidden;
+  transition: all 600ms;
+  border-radius: 16px;
+}
+.trackimg:hover{
+  filter: invert(100%);
+  transition: all 600ms;
+}
+.trackimg:hover img{
+  transform: scale(1.15);
+  transition: all 600ms;
+}
