@@ -12,8 +12,8 @@
 }
 
 footer{
-  position: static;
-  margin-left: 40px;
+  position: absolute;
+  right: 0;
 }
 
 .crewbg h1{
@@ -30,8 +30,8 @@ iframe {
 
 .crewbg{
   padding: 4vh 1rem 5vh;
+  width:100%;
 }
-
 
 @media (max-width: 640px) {
   footer {
