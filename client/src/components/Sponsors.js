@@ -10,6 +10,7 @@ import bugsee from "../images/sponsors/bugsee.png";
 import gmc from "../images/sponsors/GMC.png";
 import echo from "../images/sponsors/echoAR.png";
 import fluent from "../images/sponsors/fluent_logo.png";
+import quillbot from "../images/sponsors/quillbot.png";
 
 
 class Sponsors extends Component {
@@ -57,18 +58,21 @@ class Sponsors extends Component {
                     <div className="page_container Shoot">
                         <h4 className="ta_center">Shoot</h4><br />
                         <div className="column large2 medium3 small6">
-                            <a href="https://www.taskade.com/" target="blank"><img src={taskade} className="center" style={{ width: "54%" }} alt="altimage" /></a>
+                            <a href="https://www.taskade.com/" target="blank"><img src={taskade} className="center" style={{ width: "54%" }} alt="taskade" /></a>
                             <br /><br />
                         </div>
                         <div className="column large2 medium3 small6">
-                            <a href="https://www.bugsee.com/" target="blank"><img src={bugsee} className="center" style={{ width: "54%" }} alt="altimage" /></a>
+                            <a href="https://www.bugsee.com/" target="blank"><img src={bugsee} className="center" style={{ width: "54%" }} alt="bugsee" /></a>
                             <br /><br />
                         </div>
                         <div className="column large2 medium3 small6">
-                            <a href="https://givemycertificate.com/" target="blank"><img src={gmc} className="center" style={{ width: "90%" }} alt="altimage" /></a>
+                            <a href="https://givemycertificate.com/" target="blank"><img src={gmc} className="center" style={{ width: "90%" }} alt="givemycertificate" /></a>
                         </div>
                         <div className="column large2 medium3 small6">
-                            <a href="https://fluentdesignforweb.github.io/" target="blank"><img src={fluent} className="center" style={{ width: "90%" }} alt="altimage" /></a>
+                            <a href="https://fluentdesignforweb.github.io/" target="blank"><img src={fluent} className="center" style={{ width: "90%" }} alt="fluentdesignforweb" /></a>
+                        </div>
+                        <div className="column large2 medium3 small6">
+                            <a href="https://quillbot.com/" target="blank"><img src={quillbot} className="center" style={{ width: "90%",paddingTop:"20px"}} alt="quillbot" /></a>
                         </div>
                     </div>
 
@@ -90,9 +94,9 @@ class Sponsors extends Component {
                     <img src={fold} className="center" style={{width: "54%"}} alt="altimage" />
                 </div>
               </div><br /><br /><br /><br />
-  
+
               <br /><br /><br /><br /><br /><br />
-  
+
                       */
         );
     }

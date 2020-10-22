@@ -1,20 +1,47 @@
-.speakers{
-    padding: 1rem;
-
+@font-face {
+  font-family: "Barlow", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
 }
 
+.speakers{
+    padding: 0 10px;
+}
+p{
+  font-size: 22px;
+  padding-top: 20px;
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+}
 .speakers * {
     text-align: center;
 }
-
+.row1{
+  display: flex;
+  justify-content: center;
+}
+.row2{
+  display: flex;
+  justify-content: center;
+}
 .speakers img{
-    width: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
 }
 
+@media (max-width: 770px) {
+
+.speakers img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+}
 @media (max-width: 640px) {
 
 .speakers img{
-    width: 80%;
+    width: 135px;
+    height: 135px;
+    object-fit: cover;
 }
-
 }
