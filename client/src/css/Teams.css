@@ -15,9 +15,10 @@
 }
 
 .teams {
-  width: 70%;
+  width: 60%;
   display: block;
   margin: auto;
+  max-height: 100vh;
 }
 
 .teams * {

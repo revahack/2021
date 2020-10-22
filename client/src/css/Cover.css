@@ -32,6 +32,13 @@ body {
 }
 
 
+div.cover-container{
+   position: relative;
+   top: 25vh;
+   left: -2%;
+}
+
+
 
 sup {
   position: relative;
@@ -100,6 +107,7 @@ sub {
 @media (max-width: 575.98px) {
   .cover {
     background-image: url("../images/cover-phone.png");
+    height: 100vh;
   }
 
   .cover,
@@ -132,6 +140,12 @@ sub {
     font-size: 1.5rem;
   }
 
+  div.cover-container{
+    position: relative;
+    top: 20vh;
+    left: -2%;
+ }
+
   sup {
     position: relative;
     bottom: 4px;
@@ -158,4 +172,6 @@ sub {
   .discord img {
     margin-left: 10px;
   }
+
+
 }

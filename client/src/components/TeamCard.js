@@ -53,7 +53,7 @@ function Card(props) {
 
             {props.members.map((member) => {
               return (
-                <div className="column large4 medium4 small12">
+                <div className="column large3 medium3 small12">
                   <img
                     src={require("../images/teams/" +
                       props.name +
