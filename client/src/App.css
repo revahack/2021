@@ -21,6 +21,7 @@ a::before, a:hover::before, .pivot_button::before, .pivot_button:hover::before{
 }  
 
 
+/*
 @media(prefers-color-scheme: light){
   .primary_inverted {
     background: #1313F3;
@@ -35,3 +36,4 @@ a::before, a:hover::before, .pivot_button::before, .pivot_button:hover::before{
     filter: invert(100%) hue-rotate(180deg);
   }
 }
+*/
