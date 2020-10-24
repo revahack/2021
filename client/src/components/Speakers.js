@@ -10,34 +10,13 @@ function Speakers() {
   return (
     <div className="speakers">
 
-      <div className="">
+      <div className="page_container">
           <br /><br /><br /><br /><br /><br />
           <h1 className="ta_center title">Speakers</h1>
           <br /><br />
-            <div className="">
-              <div className="column large4 medium6 small6">
-                  <img src={Ahmed_aqib}   alt="altimage" />
-                  <br />
-                  <p>Ahmed Aqib</p>
-              </div>
-              <div className="column large4 medium6 small6">
-                <img src={Akash_James}   alt="altimage" />
-                  <br />
-                  <p>Akash James</p>
-                </div>
-            </div>
-            <br /><br />
+
           <div className="">
-              <div className="column large4 medium6 small6">
-                  <img src={Kunal_Kushwaha}   alt="altimage" />
-                  <br />
-                  <p>Kunal Kushwaha</p>
-              </div>
-              <div className="column large4 medium6 small6">
-                  <img src={Punit_Chawla}   alt="altimage" />
-                  <br />
-                    <p>Punit Chawla</p>
-              </div>
+            
           </div>
 
       </div>
