@@ -161,3 +161,13 @@
     display: block;
   }
 }
+
+@media (max-width: 360px){
+  .collapsible p {
+    margin-top: 0.7%;
+    padding: 8px 3px;
+    white-space: inherit;
+    line-height: 20px;
+    height: 60%;
+  }
+}
