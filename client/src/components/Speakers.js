@@ -22,18 +22,24 @@ function Speakers() {
           <div className="column large10 medium12 small12 center spk">
 
             <div className="column large4 medium8 small12">
+              <a href="https://www.linkedin.com/in/punitweb" target="_blank">
               <img className="column large12 medium12 small12" src={Punit_Chawla} />
               <h2 className="primary_white nametag">Punit Chawla</h2>
+              </a>
             </div>
 
             <div className="column large4 medium8 small12">
+              <a href="https://www.linkedin.com/in/alongrinshpoon" target="_blank">
               <img className="column large12 medium12 small12" src={AG} />
               <h2 className="primary_white nametag">Alon Grinshpoon</h2>
+              </a>
             </div>
 
             <div className="column large4 medium8 small12">
+              <a href="https://www.linkedin.com/in/ahmed-aqib" target="_blank">
               <img className="column large12 medium12 small12" src={Ahmed_aqib} />
               <h2 className="primary_white nametag">Aqib Ahmed</h2>
+              </a>
             </div>
 
         </div>
@@ -41,18 +47,24 @@ function Speakers() {
         <div className="column large10 medium12 small12 center spk">
 
           <div className="column large4 medium8 small12">
+            <a href="https://www.linkedin.com/in/akashjames" target="_blank">
             <img className="column large12 medium12 small12" src={Akash_James} />
             <h2 className="primary_white nametag">Akash James</h2>
+            </a>
           </div>
 
           <div className="column large4 medium8 small12">
+            <a href="https://www.linkedin.com/in/singam-mohit-reddy-a96a01152" target="_blank">
             <img className="column large12 medium12 small12" src={SMR} />
             <h3 className="primary_white nametag">Singam Mohit Reddy</h3>
+            </a>
           </div>
 
           <div className="column large4 medium8 small12">
+            <a href="https://www.linkedin.com/in/kunal-kushwaha" target="_blank">
             <img className="column large12 medium12 small12" src={Kunal_Kushwaha} />
             <h2 className="primary_white nametag">Kunal Kushwaha</h2>
+            </a>
           </div>
 
         </div>
@@ -60,13 +72,17 @@ function Speakers() {
         <div className="column large10 medium12 small12 center spk">
 
           <div className="column large4 medium8 small12">
+            <a href="https://www.linkedin.com/in/epperry3" target="_blank">
             <img className="column large12 medium12 small12" src={EP} />
             <h2 className="primary_white nametag">Emily Perry</h2>
+            </a>
           </div>
 
           <div className="column large4 medium8 small12">
+            <a href="https://www.linkedin.com/in/asv0018" target="_blank">
             <img className="column large12 medium12 small12" src={SREE} />
             <h2 className="primary_white nametag">Sreevallabha</h2>
+            </a>
           </div>
 
         </div>
