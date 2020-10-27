@@ -24,21 +24,21 @@ function Speakers() {
             <div className="column large4 medium8 small12">
               <a href="https://www.linkedin.com/in/punitweb" target="_blank">
               <img className="column large12 medium12 small12" src={Punit_Chawla} />
-              <h2 className="primary_white nametag">Punit Chawla</h2>
+              <h6 className="primary_white nametag">Punit Chawla</h6>
               </a>
             </div>
 
             <div className="column large4 medium8 small12">
               <a href="https://www.linkedin.com/in/alongrinshpoon" target="_blank">
               <img className="column large12 medium12 small12" src={AG} />
-              <h2 className="primary_white nametag">Alon Grinshpoon</h2>
+              <h6 className="primary_white nametag">Alon Grinshpoon</h6>
               </a>
             </div>
 
             <div className="column large4 medium8 small12">
               <a href="https://www.linkedin.com/in/ahmed-aqib" target="_blank">
               <img className="column large12 medium12 small12" src={Ahmed_aqib} />
-              <h2 className="primary_white nametag">Aqib Ahmed</h2>
+              <h6 className="primary_white nametag">Aqib Ahmed</h6>
               </a>
             </div>
 
@@ -49,7 +49,7 @@ function Speakers() {
           <div className="column large4 medium8 small12">
             <a href="https://www.linkedin.com/in/akashjames" target="_blank">
             <img className="column large12 medium12 small12" src={Akash_James} />
-            <h2 className="primary_white nametag">Akash James</h2>
+            <h6 className="primary_white nametag">Akash James</h6>
             </a>
           </div>
 
@@ -63,7 +63,7 @@ function Speakers() {
           <div className="column large4 medium8 small12">
             <a href="https://www.linkedin.com/in/kunal-kushwaha" target="_blank">
             <img className="column large12 medium12 small12" src={Kunal_Kushwaha} />
-            <h2 className="primary_white nametag">Kunal Kushwaha</h2>
+            <h6 className="primary_white nametag">Kunal Kushwaha</h6>
             </a>
           </div>
 
@@ -74,14 +74,14 @@ function Speakers() {
           <div className="column large4 medium8 small12">
             <a href="https://www.linkedin.com/in/epperry3" target="_blank">
             <img className="column large12 medium12 small12" src={EP} />
-            <h2 className="primary_white nametag">Emily Perry</h2>
+            <h6 className="primary_white nametag">Emily Perry</h6>
             </a>
           </div>
 
           <div className="column large4 medium8 small12">
             <a href="https://www.linkedin.com/in/asv0018" target="_blank">
             <img className="column large12 medium12 small12" src={SREE} />
-            <h2 className="primary_white nametag">Sreevallabha</h2>
+            <h6 className="primary_white nametag">Sreevallabha</h6>
             </a>
           </div>
 
