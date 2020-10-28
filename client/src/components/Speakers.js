@@ -56,7 +56,7 @@ function Speakers() {
           <div className="column large4 medium8 small12">
             <a href="https://www.linkedin.com/in/singam-mohit-reddy-a96a01152" target="_blank">
             <img className="column large12 medium12 small12" src={SMR} />
-            <h3 className="primary_white nametag">Singam Mohit Reddy</h3>
+            <h6 className="primary_white nametag">Singam Mohit Reddy</h6>
             </a>
           </div>
 
