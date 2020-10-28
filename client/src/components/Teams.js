@@ -60,7 +60,6 @@ function Teams() {
           name="Design Crew"
           members={[
             "Aman Srivastava",
-            "Amareshwar Karatagi",
             "Ishita Agrawal",
             "Prajwal U",
             "Shradha B Kaba",
