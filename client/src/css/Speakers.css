@@ -85,3 +85,6 @@ p{
   filter: grayscale(0%);
   transition: 300ms;
 }
+h6{
+  padding: 10px 0px;
+}
