@@ -30,7 +30,7 @@ p{
 }
 .nametag{
   width: auto;
-  margin-left: 10px;
+  margin-left: 0px;
 }
 .spkinfo{
   margin-left: 10px;
@@ -46,7 +46,7 @@ p{
 }
 .nametag{
   width: auto;
-  margin-left: 10px;
+  margin-left: 0px;
   font-size: 3vh;
 }
 .spkinfo{
