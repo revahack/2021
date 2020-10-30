@@ -10,6 +10,7 @@ import Speakers from "./components/Speakers";
 import FAQ from "./components/FAQ";
 import Home from "./components/HomeComp";
 import FourZeroFour from "./components/404Comp";
+import ComingSoon from "./components/ComingSoon"
 
 
 class App extends Component {
@@ -22,6 +23,7 @@ class App extends Component {
             <Route path="/teams" component={Teams} />
             <Route path="/coc" component={Home} />
             <Route path="/faqs" component={FAQ} />
+            <Route path="/comingsoon" component={ComingSoon} />
             <Route component={FourZeroFour} />
           </Switch>
           <Navbar />
