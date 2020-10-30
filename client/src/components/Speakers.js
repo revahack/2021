@@ -98,7 +98,7 @@ function Speakers() {
         
         <div className="column large10 medium12 small12 center spk">
         <div className="column large4 medium8 small12" style={{margin:"0.2rem"}}>
-            <a href="https://www.linkedin.com/in/himanshuranjan30" target="_blank">
+            <a href="https://www.linkedin.com/in/vishnu-sai-224004195" target="_blank">
             <img className="column large12 medium12 small12" src={Vishnu} />
             <h6 className="primary_white nametag">Vishnu Sai</h6>
             </a>
