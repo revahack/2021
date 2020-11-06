@@ -11,6 +11,7 @@ import gmc from "../images/sponsors/GMC.png";
 import echo from "../images/sponsors/echoAR.png";
 import fluent from "../images/sponsors/fluent_logo.png";
 import quillbot from "../images/sponsors/quillbot.png";
+import tezos from "../images/sponsors/tezos.png";
 
 
 class Sponsors extends Component {
@@ -50,7 +51,10 @@ class Sponsors extends Component {
                             <a href="https://portis.io/" target="blank"><img src={portis} className="center" style={{ width: "90%" }} alt="altimage" /></a>
                         </div>
                         <div className="column large2 medium4 small6">
-                            <a href="https://www.echoar.xyz/" target="blank"><img src={echo} className="center" style={{ width: "90%" }} alt="altimage" /></a>
+                            <a href="https://www.echoar.xyz/" target="blank"><img src={echo} className="center" style={{ width: "90%",paddingTop:"10px"}} alt="altimage" /></a>
+                        </div>
+                        <div className="column large2 medium4 small6 tezos-img">
+                            <a href="https://tezos.com/" target="blank"><img src={tezos} className="center" style={{ width: "90%" }} alt="altimage" /></a>
                         </div>
                     </div>
 
