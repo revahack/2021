@@ -3,7 +3,7 @@ import "../css/Teams.css";
 import Card from "./TeamCard";
 
 function Teams() {
-  
+
   const hideloader = () =>{
     document.getElementById("loadScreen").style.display="none";
   }
@@ -46,7 +46,6 @@ function Teams() {
             "Dharshan K",
             "Avadhesh Singh",
             "Deep Vashisth",
-            "Anjan Kumar",
           ]}
           content="A stone un-touched always remains a stone un-turned and our
               superficial development team knows exactly how to do it!
