@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../css/Cover.css";
 import discord from "../images/discord.svg";
-import DSC from "../images/sponsors/DSC.png";
 
 function Cover(props) {
   // const [mode, setMode] = useState("dark");
