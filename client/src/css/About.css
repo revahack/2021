@@ -3,6 +3,12 @@
 #slide3 {
   display: none;
 }
+/* 
+.mygrid {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 0.4fr;
+} */
 
 .slideicon {
   font-size: 20px;
@@ -14,15 +20,20 @@ button.primary_blue {
 }
 
 .aboutbg {
+  background-image: none;
   padding: 8vh 0;
   margin-left: 40px;
 }
 
 .aboutbg h1 {
+  font-weight: bolder;
+  letter-spacing: 2px;
   font-size: 3rem;
 }
 
 .aboutbg h6 {
+  letter-spacing: 4px;
+  opacity: 0.8;
   font-size: 1.5rem;
 }
 
@@ -31,7 +42,7 @@ button.primary_blue {
     margin-left: 0px;
   }
 
-  .aboutbg{
+  .aboutbg {
     padding: 4vh 1.5rem;
   }
 
