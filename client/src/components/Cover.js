@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../css/Cover.css";
 import discord from "../images/discord.svg";
-import DSC from "../images/sponsors/DSC.png";
 
 function Cover(props) {
   // const [mode, setMode] = useState("dark");
@@ -11,25 +10,24 @@ function Cover(props) {
     if (window.outerWidth <= 768) setIsMobile(true);
   }, [isMobile]);
 
-
   return (
     <div className="cover">
-      <div className="cover-container" >
+      <div className="cover-container">
         <h1>
           REVA HACK &#60;&#47;&#62;<sup>20</sup>
-          <sub>20</sub>
+          <sub>21</sub>
         </h1>
         <br />
         <hr />
         <br />
         <h4>Code for a Change</h4>
-        <br/>
-        <br/>
-        <p>04-07 November</p>
+        <br />
+        <br />
+        <p>10-13 November</p>
         <br />
 
-        <img src={DSC} className="associate def" alt="DSC" />
-        
+        {/* <img src={DSC} className="associate def" alt="DSC" /> */}
+
         <button id="devfolio-apply-now" className="devfolio-btn">
           <svg
             className="logo"
