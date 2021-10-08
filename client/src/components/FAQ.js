@@ -12,21 +12,21 @@ class FAQ extends Component {
         <section>
           <div className="collapsible">
             <button className="collapsible_button">
-              When and where will REVA HACK &lt;&#47;&gt; 2020 be hosted?
+              When and where will REVA HACK &lt;&#47;&gt; 2021 be hosted?
             </button>
             <p>
-              REVA HACK &lt;&#47;&gt; 2020 is a national level hackathon which
-              will be hosted online on Devfolio from 2nd November 2020 to 7th
-              November 2020
+              REVA HACK &lt;&#47;&gt; 2021 is a national level hackathon which
+              will be hosted online on Devfolio from 2nd November 2021 to 7th
+              November 2021
             </p>
           </div>
           <div className="collapsible">
             <button className="collapsible_button">
               How much will it cost to participate in REVA HACK &lt;&#47;&gt;
-              2020?
+              2021?
             </button>
             <p>
-              It is free. Participating in REVA HACK &lt;&#47;&gt; 2020 Will
+              It is free. Participating in REVA HACK &lt;&#47;&gt; 2021 Will
               cost you nothing but your interest and time.
             </p>
           </div>
@@ -37,7 +37,7 @@ class FAQ extends Component {
             </button>
             <p>
               There are no specific requirements for participation. Anyone who
-              is interested can participate in REVA HACK &lt;&#47;&gt; 2020. You
+              is interested can participate in REVA HACK &lt;&#47;&gt; 2021. You
               just need a Devfolio account to register and a GitHub repository
               so our team can monitor your progress. Also, you need to agree
               with our privacy policy.
@@ -81,7 +81,7 @@ class FAQ extends Component {
             <button className="collapsible_button">
               When is the last date for registration?
             </button>
-            <p>1st November 2020 is the last date for registration.</p>
+            <p>1st November 2021 is the last date for registration.</p>
           </div>
 
           <div className="collapsible">
