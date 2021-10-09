@@ -37,15 +37,19 @@ class About extends Component {
     return (
       <section className="aboutbg">
         <div className="column large10 medium12 small12 center">
+          {/* <div className="mygrid"> */}
+          {/* <div className="justrandom"> */}
           <div className="column large8 medium10 small0">
-            <h1 className="title ta_center">REVA HACK &lt;/&gt; 2021</h1>
+            <h1 className="title ta_center">
+              What is REVA HACK &lt;/&gt; 2021?
+            </h1>
             <br />
             <h6 style={{ lineHeight: "1.25" }} className="ta_justify">
-              REVA HACK  2021 is an online hackathon for coding enthusiasts
-              organised by a student community with the goal of encouraging and
-              providing a forum for students to display their abilities and
-              skills using cutting-edge technology. We're hosting the hackathon
-              virtually due to the Covid 19 outbreak.
+              REVA HACK &lt;/&gt; 2021 is a student community-based online
+              hackathon for coding enthusiasts, aiming to encourage and provide
+              a platform for students to showcase their talents and skills with
+              the help of latest technologies. In the light of covid 19
+              pandemic, we're hosting the hackathon virtually.
             </h6>
           </div>
           <div
@@ -55,14 +59,16 @@ class About extends Component {
             <h1 className="title ta_center">Why REVA HACK &lt;/&gt; 2021?</h1>
             <br />
             <h6 style={{ lineHeight: "1.25" }} className="ta_justify">
-              REVA HACK &lt;/&gt; provides a place for you to test your coding
-              and programming abilities. Participants may participate in an
-              exciting contests, acquire new skills, meet new people, and have a
-              great time. There will be a variety of interesting events with
-              fantastic prizes. This is really a wonderful chance to highlight
-              your skills while also winning certifications, prizes, and more.
+              REVA HACK provides the platform to explore your skills in coding
+              and programming. Participants can get into an inspiring
+              competition, learn new things, make new friends and have an
+              amazing time. There will be numerous exciting events with amazing
+              goodies. A perfect opportunity to showcase your talent and win
+              certificates, goodies and lot more.
             </h6>
           </div>
+          {/* </div> */}
+          {/* </div> */}
         </div>
       </section>
     );
