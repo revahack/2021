@@ -48,7 +48,37 @@ body {
   height: 100vh;
   padding: 0vh 0 0 6rem;
   text-align: center;
-  background-image: url("../images/gifs/starBG.gif");
+  /* background-image: url("../images/gifs/starBG.gif");
+  background-attachment: fixed; */
+  background-image: repeating-linear-gradient(
+      90deg,
+      rgba(243, 243, 243, 0.05) 0px,
+      rgba(243, 243, 243, 0.05) 1px,
+      transparent 1px,
+      transparent 10px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      rgba(243, 243, 243, 0.05) 0px,
+      rgba(243, 243, 243, 0.05) 1px,
+      transparent 1px,
+      transparent 10px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      rgba(243, 243, 243, 0.08) 0px,
+      rgba(243, 243, 243, 0.08) 1px,
+      transparent 1px,
+      transparent 27px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(243, 243, 243, 0.08) 0px,
+      rgba(243, 243, 243, 0.08) 1px,
+      transparent 1px,
+      transparent 27px
+    ),
+    linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 0, 0));
   background-attachment: fixed;
   background-position: left top;
   font-family: "Barlow", sans-serif;
@@ -88,7 +118,7 @@ sub {
   top: 10px;
 }
 
-#devfolio-apply-now {
+/* #devfolio-apply-now {
   -ms-flex-align: center;
   -webkit-box-align: center;
   align-items: center;
@@ -107,21 +137,20 @@ sub {
   font-weight: 600;
   padding: 12px 20px;
   text-align: center;
-}
+} */
 
-#devfolio-apply-now:not([disabled]) {
+/* #devfolio-apply-now:not([disabled]) {
   cursor: pointer;
 }
 
 #devfolio-apply-now:hover {
   background-color: #2954bf !important;
-}
+} */
 
 .discord {
   color: #7289d9;
-  width: 208.55px;
-  height: 48px;
-  top: 5px;
+  width: 312px;
+  height: 44px;
   background-color: #fcfcfc;
   display: flex;
   padding: 15px 20px;
@@ -142,7 +171,7 @@ sub {
 
 @media (max-width: 575.98px) {
   .cover {
-    background-image: url("../images/gifs/starBG.gif");
+    /* background-image: url("../images/gifs/starBG.gif"); */
     height: 100vh;
   }
 

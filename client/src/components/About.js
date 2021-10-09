@@ -36,7 +36,7 @@ class About extends Component {
 
     return (
       <section className="aboutbg">
-        <div className="column large10 medium12 small12 center">
+        <div className="column large10 medium12 small12 center aboutglass">
           {/* <div className="mygrid"> */}
           {/* <div className="justrandom"> */}
           <div className="column large8 medium10 small0">
