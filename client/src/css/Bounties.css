@@ -13,6 +13,12 @@
   width: 25%;
   margin: 2rem;
 }
+.btglass {
+  background: rgba(105, 102, 102, 0.034);
+
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
 
 .bounties a {
   position: relative;
@@ -30,10 +36,11 @@
 
 .bounties img {
   width: 100%;
+  border-radius: -20px;
 }
 
-.bounties h1{
-    margin-bottom: 2rem;
+.bounties h1 {
+  margin-bottom: 2rem;
 }
 
 @media (max-width: 640px) {
@@ -47,6 +54,4 @@
     width: 70%;
     margin: auto;
   }
-
-  
 }

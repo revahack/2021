@@ -2,32 +2,29 @@
   margin-left: 40px;
 }
 
-.Sapling{
+.Sapling {
   padding-top: 17vh;
+  padding-bottom: 17vh;
 }
-.Shoot{
+.Shoot {
   padding-top: 17vh;
   padding-bottom: 17vh;
 }
 
-
-
 @media (max-width: 640px) {
   .sponsors {
     margin-left: 0;
-
   }
 
-  .Sapling{
+  .Sapling {
     padding-top: 50px;
   }
-  .Shoot{
+  .Shoot {
     padding-top: 50px;
     padding-bottom: 15vh;
   }
 
-  .tezos-img{
+  .tezos-img {
     padding-top: 2.4rem;
   }
-
 }
