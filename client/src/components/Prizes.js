@@ -4,8 +4,11 @@ import "../css/Prizes.css";
 class Prizes extends Component {
   render() {
     return (
-      <div className="prizes">
-        <div className="primary_inverted" style={{ padding: "0px 10px" }}>
+      <div className="prizes" style={{ backgroundcolor: "#010409" }}>
+        <div
+          className=""
+          style={{ padding: "0px 10px", backgroundcolor: "#010409" }}
+        >
           <br />
           <br />
           <br />
