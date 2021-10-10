@@ -134,7 +134,7 @@ class FAQ extends Component {
           </div>
         </section>
         <div className="bot">
-          We will following the Hack Code of Conduct,which can be found
+          We will be following the Hack Code of Conduct,which can be found
           <NavLink to="#"> here</NavLink>
           <br />
           <br />
