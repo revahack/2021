@@ -6,7 +6,8 @@ import Cover from "./Cover";
 import About from "./About";
 import Schedule from "./Schedule";
 import Tracks from "./Tracks";
-import Bounties from "./Bounties"
+import Bounties from "./Bounties";
+import CarouselDiv from "./CarouselDiv";
 
 class Home extends Component {
   render() {
@@ -38,6 +39,7 @@ class Home extends Component {
           <Bounties />
           <Schedule />
           <Sponsors />
+          <CarouselDiv />
           <Footer />
         </div>
       </section>
