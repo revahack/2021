@@ -28,14 +28,29 @@ function Cover(props) {
         <br />
         <h1 className="hack-h1"> H A C K </h1>
         <br />
-        <Typewriter
-          options={{
-            cursor: "_",
-          }}
-          onInit={(typewriter) => {
-            typewriter.typeString("<h3>Fueled By Innovation </h3>").start();
-          }}
-        />
+
+        <h3 className="typewriter-text">
+          <Typewriter
+            options={{
+              loop: true,
+            }}
+            onInit={(typewriter) => {
+              typewriter
+
+                .typeString("Fueled By Innovation.")
+                .pauseFor(2500)
+                .deleteAll()
+
+                .typeString("The Hack Is Back.")
+                .pauseFor(2500)
+                .deleteAll()
+
+                .typeString("Think, Code, Innovate.")
+                .pauseFor(2500)
+                .start();
+            }}
+          />
+        </h3>
         <br />
         <p>10-13 November 2021</p>
         <br />
