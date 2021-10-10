@@ -22,25 +22,19 @@ class FAQ extends Component {
           </div>
           <div className="collapsible">
             <button className="collapsible_button">
-              How much will it cost to participate in REVA HACK &lt;&#47;&gt;
-              2021?
+            Is the hackathon free to participate in or do we have to pay registration fees?
             </button>
             <p>
-              It is free. Participating in REVA HACK &lt;&#47;&gt; 2021 Will
-              cost you nothing but your interest and time.
+            The hackathon is free and accessible to anybody interested in taking part.
             </p>
           </div>
 
           <div className="collapsible">
             <button className="collapsible_button">
-              What are the requirements to be able to participate?
+              What are the requirements for participation ?
             </button>
             <p>
-              There are no specific requirements for participation. Anyone who
-              is interested can participate in REVA HACK &lt;&#47;&gt; 2021. You
-              just need a Devfolio account to register and a GitHub repository
-              so our team can monitor your progress. Also, you need to agree
-              with our privacy policy.
+            Participants will need to have a Devfolio account.
             </p>
           </div>
 
@@ -105,10 +99,28 @@ class FAQ extends Component {
 
           <div className="collapsible">
             <button className="collapsible_button">
-              I didn’t find my question here, where can I clarify it?
+            Will we receive any support from mentors /coaches during the hackathon?
             </button>
             <p>
-              You can contact our Query Team through the following discord link{" "}
+            Mentor guidance and support will be offered, however mentors will not be allocated to specific teams.
+            </p>
+          </div>
+
+          <div className="collapsible">
+            <button className="collapsible_button">
+            What are the rules and regulations for the hackathon?
+            </button>
+            <p>
+            Participants may create teams of no more than four people. The teams will be given two days to complete their projects without the use of plagiarism. You can have a check on the rules and regulations document which is on discord anytime during the hackathon. Simply enjoy learning and innovating.
+            </p>
+          </div>
+
+          <div className="collapsible">
+            <button className="collapsible_button">
+            If I still have questions after reading this FAQ, what should I do?
+            </button>
+            <p>
+            If you have any remaining uncertainties, you may join our discord server and post your questions there, where our team will respond to your queries.{" "}
               <a href="https://discord.gg/7Vxyx35">here</a>
             </p>
           </div>
