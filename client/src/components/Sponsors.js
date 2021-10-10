@@ -12,7 +12,7 @@ class Sponsors extends Component {
   render() {
     return (
       <div className="sponsors">
-        <div className="primary_inverted" style={{ padding: "0px 10px" }}>
+        <div className="" style={{ padding: "0px 10px" }}>
           <br />
           <br />
           <br />

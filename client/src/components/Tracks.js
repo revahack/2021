@@ -43,7 +43,7 @@ export default function Tracks() {
     //     <img src={ai} alt="" />
     //   </div>
     // </div>
-    <div>
+    <div style={{ backgroundColor: "#010409" }}>
       <h1
         style={{
           display: "flex",
