@@ -169,7 +169,16 @@ sub {
   margin-left: 10px;
 }
 
+.typewriter-text {
+  letter-spacing: 4px;
+  margin: 2rem 0;
+}
+
 @media (max-width: 575.98px) {
+  .typewriter-text {
+    font-size: 1.5rem;
+  }
+
   .cover {
     /* background-image: url("../images/gifs/starBG.gif"); */
     height: 100vh;
