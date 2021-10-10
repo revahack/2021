@@ -6,7 +6,7 @@ import tezos from "../images/bounties/tezos.png";
 
 function Bounties() {
   return (
-    <div className="bounties btglass">
+    <div className="bounties">
       <h1 className="title">Bounties</h1>
       <div className="Bdiv">
         <div className="copy-box two">
