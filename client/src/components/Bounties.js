@@ -15,12 +15,16 @@ function Bounties() {
             <div className="line right">
               <div className="scanner"></div>
             </div>
-            Lorem ipsum dolor sit amec. Lorem ipsum dolor sit amec Lorem ipsum
-            dolor sit amec Lorem ipsum dolor sit amec Lorem ipsum dolor sit amec
-            Lorem ipsum dolor sit amec Lorem ipsum dolor sit amec Lorem ipsum
-            dolor sit amec. Lorem ipsum dolor sit amec Lorem ipsum dolor sit
-            amec Lorem ipsum dolor sit amec Lorem ipsum dolor sit amec Lorem
-            ipsum dolor sit amec Lorem ipsum dolor sit amec
+            <br />
+            <br />
+            <br />
+            <br />
+            <h5>Revealed soon</h5>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
           </div>
         </div>
       </div>
@@ -31,12 +35,16 @@ function Bounties() {
             <div className="line right">
               <div className="scanner"></div>
             </div>
-            Lorem ipsum dolor sit amec. Lorem ipsum dolor sit amec Lorem ipsum
-            dolor sit amec Lorem ipsum dolor sit amec Lorem ipsum dolor sit amec
-            Lorem ipsum dolor sit amec Lorem ipsum dolor sit amec Lorem ipsum
-            dolor sit amec. Lorem ipsum dolor sit amec Lorem ipsum dolor sit
-            amec Lorem ipsum dolor sit amec Lorem ipsum dolor sit amec Lorem
-            ipsum dolor sit amec Lorem ipsum dolor sit amec
+            <br />
+            <br />
+            <br />
+            <br />
+            <h5>Revealed soon</h5>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
           </div>
         </div>
       </div>
@@ -47,12 +55,16 @@ function Bounties() {
             <div className="line right">
               <div className="scanner"></div>
             </div>
-            Lorem ipsum dolor sit amec. Lorem ipsum dolor sit amec Lorem ipsum
-            dolor sit amec Lorem ipsum dolor sit amec Lorem ipsum dolor sit amec
-            Lorem ipsum dolor sit amec Lorem ipsum dolor sit amec Lorem ipsum
-            dolor sit amec. Lorem ipsum dolor sit amec Lorem ipsum dolor sit
-            amec Lorem ipsum dolor sit amec Lorem ipsum dolor sit amec Lorem
-            ipsum dolor sit amec Lorem ipsum dolor sit amec
+            <br />
+            <br />
+            <br />
+            <br />
+            <h5>Revealed soon</h5>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
           </div>
         </div>
       </div>
