@@ -1,13 +1,16 @@
 import React from "react";
 import { Carousel } from "react-carousel-minimal";
+import crew1 from "../images/crew1.png";
 
 export default function CarouselDiv() {
   const data = [
     {
-      image: "https://docs.google.com/uc?id=1jpmOrJQ6JDJf1b6DvWxGsXuew0R0Ix3s",
+      image:
+        "https://lh6.googleusercontent.com/ePv5kOy1yCK0eZiwLReMOfu6u4CRzCSKrdfHNuzVW_DCOLdmCpPzbNcUmE5CtTPSaIhYEqVLkqJ7hg=w1920-h942-rw",
     },
     {
-      image: "https://docs.google.com/uc?id=1U0g85C_X2Vwuhm-4ymnab0rsYEgSQXqY",
+      image:
+        "https://lh3.googleusercontent.com/rDzuMYxdkHXP6WVLuOhQ2CqYfYOZniM5Lumlpa_fX5K1dy3DlUkPkNnbbmJtH2SBnbOgTYPMyvHsbg=w1920-h942-rw",
     },
     {
       image: "https://docs.google.com/uc?id=118G9UUThsIFiUFqjFqOh_UYOcsVQFLpf",
