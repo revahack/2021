@@ -4,6 +4,10 @@ import { NavLink } from "react-router-dom";
 import home from "../images/home.png";
 import users from "../images/users.png";
 import information from "../images/information.png";
+import { BiHomeAlt } from "react-icons/bi";
+import { IconContext } from "react-icons";
+import { BsPeople } from "react-icons/bs";
+import { AiOutlineQuestionCircle } from "react-icons/ai";
 //import calendar from "../images/calendar.png";
 
 class Navbar extends Component {
@@ -22,24 +26,51 @@ class Navbar extends Component {
           }}
         >
           <NavLink to="/coc" className="pivot_button">
-            <img
-              className="def"
-              src={home}
-              style={{ color: "#fff" }}
-              alt="home"
-            ></img>
+            <IconContext.Provider
+              value={{
+                color: "#08F7FE",
+                className: "global-class-name",
+                size: "2em",
+              }}
+            >
+              <div>
+                <BiHomeAlt />
+              </div>
+            </IconContext.Provider>
+
             <span style={{ fontSize: "12px", color: "#fff" }}>Home</span>
           </NavLink>
           <br />
           <br />
           <NavLink to="/speakers" className="pivot_button">
-            <img className="def" src={users} alt="users"></img>
+            <IconContext.Provider
+              value={{
+                color: "#08F7FE",
+                className: "global-class-name",
+                size: "2em",
+              }}
+            >
+              <div>
+                <BsPeople />
+              </div>
+            </IconContext.Provider>
             <span style={{ fontSize: "12px", color: "#fff" }}>Speakers</span>
           </NavLink>
           <br />
           <br />
           <NavLink to="/faqs" className="pivot_button">
-            <img className="def" src={information} alt="information"></img>
+            <IconContext.Provider
+              value={{
+                color: "#08F7FE",
+                className: "global-class-name",
+                size: "2em",
+              }}
+            >
+              <div>
+                <AiOutlineQuestionCircle />
+              </div>
+            </IconContext.Provider>
+
             <span style={{ fontSize: "12px", color: "#fff" }}>FAQs</span>
           </NavLink>
           <br />
