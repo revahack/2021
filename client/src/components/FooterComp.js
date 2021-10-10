@@ -8,21 +8,6 @@ class Footer extends Component {
   render() {
     return (
       <footer>
-        <div className="column large12 medium12 small12 crewbg">
-          <h1 className="ta_center title">The Crew</h1>
-          <br />
-          <h6 className="ta_center center large8 medium10 small12">
-            There is a Crew which made REVA HACK possible through their sheer
-            hardwork and a will to do something great
-          </h6>
-          <br />
-          <br />
-          <button className="large primary_blue">
-            <NavLink to="/teams" className="butlink">
-              Meet Our Crew
-            </NavLink>
-          </button>
-        </div>
         <div
           className="column large12 medium12 small12"
           style={{
