@@ -16,35 +16,35 @@ class Schedule extends Component {
         <br />
         <div id="circle1">
           <div className="ddr">
-            <div className="pclass">00:00 HOURS 31/08/2020</div>
+            <div className="pclass">00:00 HOURS 11/10/2021</div>
             APPLICATION OPENS
           </div>
         </div>
         <hr className="hrv" />
         <div id="circle2">
           <div className="ddl">
-            <div className="pclass">12:00 HOURS 1/11/2020</div>
+            <div className="pclass">12:00 HOURS 7/11/2021</div>
             APPLICATION CLOSES
           </div>
         </div>
         <hr className="hrv" />
         <div id="circle3">
           <div className="ddr">
-            <div className="pclass">12:00 HOURS 04/11/2020</div>
+            <div className="pclass">12:00 HOURS 10/11/2021</div>
             HACKATHON STARTS
           </div>
         </div>
         <hr className="hrv" />
         <div id="circle4">
           <div className="ddl">
-            <div className="pclass">12:00 HOURS 07/11/2020</div>
+            <div className="pclass">12:00 HOURS 13/11/2021</div>
             HACKATHON ENDS
           </div>
         </div>
         <hr className="hrv" />
         <div id="circle5">
           <div className="ddr">
-            <div className="pclass">15:30 HOURS 11/11/2020</div>
+            <div className="pclass">15:30 HOURS 20/11/2021</div>
             RESULTS ANNOUNCED
           </div>
         </div>
