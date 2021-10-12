@@ -21,9 +21,10 @@ class Sponsors extends Component {
           <br />
           <h1 className="ta_center title">Sponsors</h1>
           <br />
+
           <br />
           <div className="column large10 medium12 small12 Tree">
-            <h4 className="ta_center "></h4>
+            <h4 className="ta_center ">Tree</h4>
             <br />
             <br />
             <div className="column large3 medium4 small5">
@@ -51,7 +52,7 @@ class Sponsors extends Component {
           </div>
 
           <div className="page_container Sapling">
-            <h4 className="ta_center">Season Partners</h4>
+            <h4 className="ta_center">Sapling</h4>
             <br />
             <div className="column large2 medium4 small6">
               <a href="https://polygon.technology/" target="blank">
