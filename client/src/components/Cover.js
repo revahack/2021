@@ -60,7 +60,7 @@ function Cover(props) {
         <div className="column large6 ">
           <div
             className="apply-button"
-            data-hackathon-slug={"revahack2021"}
+            data-hackathon-slug={"revahack21"}
             data-button-theme={"dark-inverted"}
             style={{ height: "44px", width: "312px" }}
           ></div>
