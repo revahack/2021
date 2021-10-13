@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "../Sponsors.css";
 import devfolio from "../images/sponsors/devfolio.png";
 import revaLogo from "../images/sponsors/revaLogo.png";
-import echo from "../images/sponsors/echoAR.png";
 import tezos from "../images/sponsors/sponsors 2021/Tezos_Logo-Colored@2x.png";
 import cello from "../images/sponsors/sponsors 2021/Celo Logo Color Reverse@2x.png";
 import polygon from "../images/sponsors/sponsors 2021/Polygon_Logo-White@2x.png";

@@ -1,8 +1,5 @@
 import React from "react";
 import "../css/Bounties.css";
-import matic from "../images/bounties/bT2.svg";
-import portis from "../images/bounties/bT1.svg";
-import tezos from "../images/bounties/tezos.png";
 
 function Bounties() {
   return (
