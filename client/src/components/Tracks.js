@@ -58,7 +58,7 @@ export default function Tracks() {
       <div class="container">
         <div class="card">
           <div class="Box">
-            <img src={ai1} alt="image" />
+            <img src={ai1} alt="TrackCover" />
           </div>
           <div class="details">
             <h3>Artificial Intelligence</h3>
@@ -68,7 +68,7 @@ export default function Tracks() {
         </div>
         <div class="card">
           <div class="Box">
-            <img src={vr1} alt="image" />
+            <img src={vr1} alt="TrackCover" />
           </div>
           <div class="details">
             <h3>Virtual Reality</h3>
@@ -78,7 +78,7 @@ export default function Tracks() {
         </div>
         <div class="card">
           <div class="Box">
-            <img src={cloud1} alt="image" />
+            <img src={cloud1} alt="TrackCover" />
           </div>
           <div class="details">
             <h3>Cloud</h3>
@@ -90,7 +90,7 @@ export default function Tracks() {
         <br />
         <div class="card">
           <div class="Box">
-            <img src={iot1} alt="image" />
+            <img src={iot1} alt="TrackCover" />
           </div>
           <div class="details">
             <h3>Internet Of Things</h3>
@@ -101,7 +101,7 @@ export default function Tracks() {
         </div>
         <div class="card">
           <div class="Box">
-            <img src={ml1} alt="image" />
+            <img src={ml1} alt="TrackCover" />
           </div>
           <div class="details">
             <h3>Machine Learning</h3>
@@ -110,7 +110,7 @@ export default function Tracks() {
         </div>
         <div class="card">
           <div class="Box">
-            <img src={health1} alt="image" />
+            <img src={health1} alt="TrackCover" />
           </div>
           <div class="details">
             <h2>Healthcare</h2>

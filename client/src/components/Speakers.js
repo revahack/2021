@@ -34,7 +34,7 @@ function Speakers() {
               <img
                 className="column large12 medium12 small12"
                 src={Punit_Chawla}
-                alt="image"
+                alt="Our Speakers"
               />
               <h6 className="primary_white nametag">Punit Chawla</h6>
             </a>
@@ -48,7 +48,7 @@ function Speakers() {
               <img
                 className="column large12 medium12 small12"
                 src={AG}
-                alt="image"
+                alt="Our Speakers"
               />
               <h6 className="primary_white nametag">Alon Grinshpoon</h6>
             </a>
@@ -62,7 +62,7 @@ function Speakers() {
               <img
                 className="column large12 medium12 small12"
                 src={Ahmed_aqib}
-                alt="image"
+                alt="Our Speakers"
               />
               <h6 className="primary_white nametag">Aqib Ahmed</h6>
             </a>
@@ -78,7 +78,7 @@ function Speakers() {
               <img
                 className="column large12 medium12 small12"
                 src={Akash_James}
-                alt="image"
+                alt="Our Speakers"
               />
               <h6 className="primary_white nametag">Akash James</h6>
             </a>
@@ -92,7 +92,7 @@ function Speakers() {
               <img
                 className="column large12 medium12 small12"
                 src={SMR}
-                alt="image"
+                alt="Our Speakers"
               />
               <h6 className="primary_white nametag">Singam Mohit Reddy</h6>
             </a>
@@ -106,7 +106,7 @@ function Speakers() {
               <img
                 className="column large12 medium12 small12"
                 src={Kunal_Kushwaha}
-                alt="image"
+                alt="Our Speakers"
               />
               <h6 className="primary_white nametag">Kunal Kushwaha</h6>
             </a>
@@ -122,7 +122,7 @@ function Speakers() {
               <img
                 className="column large12 medium12 small12"
                 src={EP}
-                alt="image"
+                alt="Our Speakers"
               />
               <h6 className="primary_white nametag">Emily Perry</h6>
             </a>
@@ -136,7 +136,7 @@ function Speakers() {
               <img
                 className="column large12 medium12 small12"
                 src={SREE}
-                alt="image"
+                alt="Our Speakers"
               />
               <h6 className="primary_white nametag">Sreevallabha</h6>
             </a>
@@ -150,7 +150,7 @@ function Speakers() {
               <img
                 className="column large12 medium12 small12"
                 src={Himanshu}
-                alt="image"
+                alt="Our Speakers"
               />
               <h6 className="primary_white nametag">Himanshu Ranjan</h6>
             </a>
@@ -166,7 +166,7 @@ function Speakers() {
               <img
                 className="column large12 medium12 small12"
                 src={Vishnu}
-                alt="image"
+                alt="Our Speakers"
               />
               <h6 className="primary_white nametag">Vishnu Sai</h6>
             </a>
