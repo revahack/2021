@@ -3,10 +3,15 @@
   src: url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
 }
 
-.speakers{
-    padding: 0 10px;
+.speakers {
+  padding: 0 10px;
 }
-p{
+
+.Revealing-Soon {
+  font-size: 200%;
+  padding-top: 10%;
+}
+/* p{
   font-size: 22px;
   padding-top: 20px;
   text-align: center;
@@ -87,4 +92,4 @@ p{
 }
 h6{
   padding: 10px 0px;
-}
+} */
