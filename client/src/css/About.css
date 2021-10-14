@@ -85,10 +85,17 @@ button.primary_blue {
   }
 
   .aboutbg {
-    padding: 4vh 1.5rem;
+    padding: 3rem;
   }
 
   .aboutbg h6 {
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+  }
+  .aboutbg h1 {
     font-size: 1.4rem;
+  }
+  .aboutglass {
+    padding: 1rem;
   }
 }
