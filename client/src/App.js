@@ -5,8 +5,8 @@ import "fdweb/fluent-icons.css";
 import "./App.css";
 
 import Navbar from "./components/Navbar";
-import Teams from "./components/Teams";
-import Speakers from "./components/Speakers";
+// import Teams from "./components/Teams";
+// import Speakers from "./components/Speakers";
 import FAQ from "./components/FAQ";
 import Home from "./components/HomeComp";
 import FourZeroFour from "./components/404Comp";
