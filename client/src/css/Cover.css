@@ -119,6 +119,11 @@ sub {
   top: 10px;
 }
 
+.cover-container p {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
 /* #devfolio-apply-now {
   -ms-flex-align: center;
   -webkit-box-align: center;
@@ -182,7 +187,7 @@ sub {
 
   .cover {
     /* background-image: url("../images/gifs/starBG.gif"); */
-    height: 100vh;
+    height: 73vh;
   }
 
   .cover,
@@ -223,6 +228,11 @@ sub {
     left: -2%;
   }
 
+  .cover-container p {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+
   sup {
     position: relative;
     bottom: 4px;
@@ -252,6 +262,6 @@ sub {
   }
   .discord {
     margin: 12px;
-    width: 295px;
+    /* width: 295px; */
   }
 }
