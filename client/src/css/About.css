@@ -52,6 +52,7 @@ button.primary_blue {
   background-color: #010409;
 
   background-attachment: fixed;
+  padding-top: 60px;
 
   margin-left: 40px;
 }
@@ -68,6 +69,8 @@ button.primary_blue {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
+
+  padding: 30px 10px 30px 10px;
 }
 .aboutbg h6 {
   letter-spacing: 4px;
