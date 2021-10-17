@@ -1,9 +1,21 @@
 import React from "react";
 import { Carousel } from "react-carousel-minimal";
+<<<<<<< Updated upstream
+=======
+import crew1 from "../images/crew1.png";
+import crew2 from "../images/crew2.png";
+import crew3 from "../images/crew3.png";
+import crew4 from "../images/crew4.png";
+import crew5 from "../images/crew5.png";
+import crew6 from "../images/crew6.png";
+import crew7 from "../images/crew7.png";
+import crew8 from "../images/crew8.png";
+>>>>>>> Stashed changes
 
 export default function CarouselDiv() {
   const data = [
     {
+<<<<<<< Updated upstream
       image: "https://docs.google.com/uc?id=1jpmOrJQ6JDJf1b6DvWxGsXuew0R0Ix3s",
     },
     {
@@ -26,6 +38,30 @@ export default function CarouselDiv() {
     },
     {
       image: "https://docs.google.com/uc?id=1ti_rMwvD14I2DhIJOSn2nUZwNVvMIZ7y",
+=======
+      image: crew1,
+    },
+    {
+      image: crew2,
+    },
+    {
+      image: crew3,
+    },
+    {
+      image: crew4,
+    },
+    {
+      image: crew5,
+    },
+    {
+      image: crew6,
+    },
+    {
+      image: crew7,
+    },
+    {
+      image: crew8,
+>>>>>>> Stashed changes
     },
   ];
 
