@@ -1,6 +1,5 @@
 import React from "react";
 import { Carousel } from "react-carousel-minimal";
-
 import crew1 from "../images/crew1.png";
 import crew2 from "../images/crew2.png";
 import crew3 from "../images/crew3.png";
@@ -10,11 +9,9 @@ import crew6 from "../images/crew6.png";
 import crew7 from "../images/crew7.png";
 import crew8 from "../images/crew8.png";
 
-
 export default function CarouselDiv() {
   const data = [
     {
-
       image: crew1,
     },
     {
@@ -37,7 +34,6 @@ export default function CarouselDiv() {
     },
     {
       image: crew8,
-
     },
   ];
 
