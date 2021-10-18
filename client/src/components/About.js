@@ -39,8 +39,8 @@ class About extends Component {
         <div className="column large10 medium12 small12 center aboutglass">
           {/* <div className="mygrid"> */}
           {/* <div className="justrandom"> */}
-          <div className="column large8 medium10 small0">
-            <h1 className="title ta_center">
+          <div className="column large8 medium10 small12">
+            <h1 className="title ta_center abTitle">
               What is REVA HACK &lt;/&gt; 2021?
             </h1>
             <br />
@@ -56,7 +56,7 @@ class About extends Component {
             className="column large8 medium10 small12"
             style={{ marginTop: "2rem" }}
           >
-            <h1 className="title ta_center">Why REVA HACK &lt;/&gt; 2021?</h1>
+            <h1 className="title ta_center abTitle">Why REVA HACK &lt;/&gt; 2021?</h1>
             <br />
             <h6 style={{ lineHeight: "1.25" }} className="ta_justify">
               REVA HACK provides the platform to explore your skills in coding

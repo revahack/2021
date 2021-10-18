@@ -75,9 +75,9 @@ export default function CarouselDiv() {
             pauseIconColor="white"
             pauseIconSize="40px"
             slideBackgroundColor="black"
-            slideImageFit="cover"
             thumbnails={false}
             thumbnailWidth="100px"
+            slideImageFit="contain"
             style={{
               textAlign: "center",
               maxWidth: "1440px",
