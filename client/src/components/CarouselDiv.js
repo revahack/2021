@@ -72,6 +72,7 @@ export default function CarouselDiv() {
             slideImageFit="cover"
             thumbnails={false}
             thumbnailWidth="100px"
+            slideImageFit="contain"
             style={{
               textAlign: "center",
               maxWidth: "1440px",
