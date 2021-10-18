@@ -225,7 +225,6 @@ sub {
   div.cover-container {
     position: relative;
     top: 6vh;
-    left: -2%;
   }
 
   .cover-container p {
@@ -262,6 +261,14 @@ sub {
   }
   .discord {
     margin: 12px;
-    /* width: 295px; */
+    
+    
   }
+  .disB{
+    padding-bottom: 100px;
+  }
+  .btcl{
+    margin:0 auto;
+  }
+  
 }
