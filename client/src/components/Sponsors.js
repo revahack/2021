@@ -6,6 +6,8 @@ import tezos from "../images/sponsors/sponsors 2021/Tezos_Logo-Colored@2x.png";
 import cello from "../images/sponsors/sponsors 2021/Celo Logo Color Reverse@2x.png";
 import polygon from "../images/sponsors/sponsors 2021/Polygon_Logo-White@2x.png";
 import filecoin from "../images/sponsors/sponsors 2021/Filecoin Coloured White Text-1.png";
+import GMC from "../images/sponsors/sponsors 2021/GMC.png";
+
 
 class Sponsors extends Component {
   render() {
@@ -96,6 +98,26 @@ class Sponsors extends Component {
                 />
               </a>
             </div>
+          </div>
+          
+          <div className="page_container">
+            <h4 className="ta_center">Shoot</h4>
+            <br />
+            <div className="column large2 medium4 small6">
+              <a href="https://www.givemycertificate.com/" target="blank">
+                <img
+                  src={GMC}
+                  className="center"
+                  style={{ width: "80%", paddingTop: "10px" }}
+                  alt="altimage"
+                />
+              </a>
+              <br />
+              <br />
+            </div>
+
+          
+        
           </div>
         </div>
       </div>
