@@ -2,6 +2,12 @@ import React from "react";
 import { Carousel } from "react-carousel-minimal";
 import crew1 from "../images/crew1.png";
 import crew2 from "../images/crew2.png";
+import crew3 from "../images/crew3.png";
+import crew4 from "../images/crew4.png";
+import crew5 from "../images/crew5.png";
+import crew6 from "../images/crew6.png";
+import crew7 from "../images/crew7.png";
+import crew8 from "../images/crew8.png";
 
 export default function CarouselDiv() {
   const data = [
@@ -12,22 +18,22 @@ export default function CarouselDiv() {
       image: crew2,
     },
     {
-      image: "https://docs.google.com/uc?id=118G9UUThsIFiUFqjFqOh_UYOcsVQFLpf",
+      image: crew3,
     },
     {
-      image: "https://docs.google.com/uc?id=1CbxdMd0EYVqCXLOdwEdT0V3zfc_a0Eyl",
+      image: crew4,
     },
     {
-      image: "https://docs.google.com/uc?id=1xB6iEHLq5j3nKeq5Z9O9s8sYfpV75RhD",
+      image: crew5,
     },
     {
-      image: "https://docs.google.com/uc?id=1D4Jj7RaNbn3vgODT7gqoflm1IjJ5eFEY",
+      image: crew6,
     },
     {
-      image: "https://docs.google.com/uc?id=1dnbYJZbrrXWDAbaMvcO7LrYNvar2Br3W",
+      image: crew7,
     },
     {
-      image: "https://docs.google.com/uc?id=1ti_rMwvD14I2DhIJOSn2nUZwNVvMIZ7y",
+      image: crew8,
     },
   ];
 
