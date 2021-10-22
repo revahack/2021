@@ -7,6 +7,16 @@ import cello from "../images/sponsors/sponsors 2021/Celo Logo Color Reverse@2x.p
 import polygon from "../images/sponsors/sponsors 2021/Polygon_Logo-White@2x.png";
 import filecoin from "../images/sponsors/sponsors 2021/Filecoin Coloured White Text-1.png";
 import GMC from "../images/sponsors/sponsors 2021/GMC.png";
+import Egg from "../images/sponsors/sponsors 2021/egghead_logo.png";
+import taskade from "../images/sponsors/sponsors 2021/tasklogo.png";
+import HCflag from "../images/sponsors/sponsors 2021/flag-standalone.png";
+import XYZ from "../images/sponsors/sponsors 2021/xyz-logo-color.png";
+import axure from "../images/sponsors/sponsors 2021/axurelogo.png";
+import RM from "../images/sponsors/sponsors 2021/RM-Logo.png";
+// -----------
+import SY from "../images/sponsors/sponsors 2021/SY.png";
+import Iotree from "../images/sponsors/sponsors 2021/Iotree.png";
+
 
 
 class Sponsors extends Component {
@@ -56,6 +66,30 @@ class Sponsors extends Component {
             <h4 className="ta_center">Sapling</h4>
             <br />
             <div className="column large2 medium4 small6">
+              <a href="https://egghead.io/" target="blank">
+                <img
+                  src={Egg}
+                  className="center"
+                  style={{ width: "80%", paddingTop: "10px" }}
+                  alt="altimage"
+                />
+              </a>
+              <br />
+              <br />
+            </div>
+            <div className="column large2 medium4 small6">
+              <a href="https://taskade.com/" target="blank">
+                <img
+                  src={taskade}
+                  className="center"
+                  style={{ width: "80%", paddingTop: "10px" }}
+                  alt="altimage"
+                />
+              </a>
+              <br />
+              <br />
+            </div>
+            <div className="column large2 medium4 small6">
               <a href="https://polygon.technology/" target="blank">
                 <img
                   src={polygon}
@@ -67,7 +101,42 @@ class Sponsors extends Component {
               <br />
               <br />
             </div>
-
+            <div className="column large2 medium4 small6">
+              <a href="https://hackclub.com/" target="blank">
+                <img
+                  src={HCflag}
+                  className="center"
+                  style={{ width: "80%", paddingTop: "10px" }}
+                  alt="altimage"
+                />
+              </a>
+              <br />
+              <br />
+            </div>
+            <div className="column large2 medium4 small6">
+              <a href="https://gen.xyz/" target="blank">
+                <img
+                  src={XYZ}
+                  className="center"
+                  style={{ width: "80%", paddingTop: "10px" }}
+                  alt="altimage"
+                />
+              </a>
+              <br />
+              <br />
+            </div>
+            <div className="column large2 medium4 small6">
+              <a href="https://www.axure.com" target="blank">
+                <img
+                  src={axure}
+                  className="center"
+                  style={{ width: "80%", paddingTop: "10px" }}
+                  alt="altimage"
+                />
+              </a>
+              <br />
+              <br />
+            </div>
             <div className="column large2 medium4 small6">
               <a href="https://tezos.com" target="blank">
                 <img
@@ -82,6 +151,16 @@ class Sponsors extends Component {
               <a href="https://celo.org" target="blank">
                 <img
                   src={cello}
+                  className="center"
+                  style={{ width: "90%" }}
+                  alt="altimage"
+                />
+              </a>
+            </div>
+            <div className="column large2 medium4 small6">
+              <a href="https://rosenfeldmedia.com/" target="blank">
+                <img
+                  src={RM}
                   className="center"
                   style={{ width: "90%" }}
                   alt="altimage"
@@ -112,6 +191,30 @@ class Sponsors extends Component {
                   alt="altimage"
                 />
               </a>
+              <br />
+              <br />
+            </div>
+            <div className="column large2 medium4 small6">
+              <a href="https://www.stickeryou.com/" target="blank">
+                <img
+                  src={SY}
+                  className="center"
+                  style={{ width: "80%", paddingTop: "10px" }}
+                  alt="altimage"
+                />
+              </a>
+              <br />
+              <br />
+            </div>
+            <div className="column large2 medium4 small6">
+              
+                <img
+                  src={Iotree}
+                  className="center"
+                  style={{ width: "80%", paddingTop: "10px" }}
+                  alt="altimage"
+                />
+              
               <br />
               <br />
             </div>
