@@ -16,6 +16,18 @@ import RM from "../images/sponsors/sponsors 2021/RM-Logo.png";
 // -----------
 import SY from "../images/sponsors/sponsors 2021/SY.png";
 import Iotree from "../images/sponsors/sponsors 2021/Iotree.png";
+// ---------new sponsors----------
+// import P1 from "../images/sponsors/sponsors 2021/1P-logo.png";
+// import balsamiq from "../images/sponsors/sponsors 2021/balsamiq.png";
+// import cyb from "../images/sponsors/sponsors 2021/cybrancee.png";
+// import heiphen from "../images/sponsors/sponsors 2021/heiphen.png";
+
+import hackcbs from "../images/sponsors/sponsors 2021/hackcbs.png";
+
+
+
+
+
 
 
 
@@ -222,6 +234,23 @@ class Sponsors extends Component {
           
         
           </div>
+          <div className="page_container Sapling">
+            <h4 className="ta_center">Community Sponsor</h4>
+            <br />
+            <div className="column large2 medium4 small6">
+              <a href="https://hackcbs.tech/" target="blank">
+                <img
+                  src={hackcbs}
+                  className="center"
+                  style={{ width: "100%", paddingTop: "10px" }}
+                  alt="altimage"
+                />
+              </a>
+              <br />
+              <br />
+            </div>
+            
+            </div>
         </div>
       </div>
       /*
