@@ -57,7 +57,7 @@ function Cover(props) {
 
         {/* <img src={DSC} className="associate def" alt="DSC" /> */}
 
-        <div className="column large6 ">
+        <div className="column large6 small12 btcl">
           <div
             className="apply-button"
             data-hackathon-slug={"revahack21"}
@@ -65,7 +65,7 @@ function Cover(props) {
             style={{ height: "44px", width: "312px" }}
           ></div>
         </div>
-        <div className="column large6">
+        <div className="column large6 disB small12">
           <a
             href="https://discord.gg/xBBJgXp"
             target="blank"

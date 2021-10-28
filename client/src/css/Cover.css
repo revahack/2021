@@ -225,7 +225,6 @@ sub {
   div.cover-container {
     position: relative;
     top: 6vh;
-    left: -2%;
   }
 
   .cover-container p {
@@ -262,10 +261,10 @@ sub {
   }
   .discord {
     margin: 12px;
-<<<<<<< Updated upstream
+
     /* width: 295px; */
   }
-=======
+
   }
 
   .btcl {
@@ -281,5 +280,12 @@ sub {
   border-radius: 3px;
   padding-top: 5%;
   padding-right: 10%;
->>>>>>> Stashed changes
+
+  }
+  
+  .btcl{
+    margin:0 auto;
+  }
+  
+
 }

@@ -6,6 +6,33 @@ import tezos from "../images/sponsors/sponsors 2021/Tezos_Logo-Colored@2x.png";
 import cello from "../images/sponsors/sponsors 2021/Celo Logo Color Reverse@2x.png";
 import polygon from "../images/sponsors/sponsors 2021/Polygon_Logo-White@2x.png";
 import filecoin from "../images/sponsors/sponsors 2021/Filecoin Coloured White Text-1.png";
+import GMC from "../images/sponsors/sponsors 2021/GMC.png";
+import Egg from "../images/sponsors/sponsors 2021/egghead_logo.png";
+import taskade from "../images/sponsors/sponsors 2021/tasklogo.png";
+import HCflag from "../images/sponsors/sponsors 2021/flag-standalone.png";
+import XYZ from "../images/sponsors/sponsors 2021/xyz-logo-color.png";
+import axure from "../images/sponsors/sponsors 2021/axurelogo.png";
+import RM from "../images/sponsors/sponsors 2021/RM-Logo.png";
+// -----------
+import SY from "../images/sponsors/sponsors 2021/SY.png";
+import Iotree from "../images/sponsors/sponsors 2021/Iotree.png";
+// ---------new sponsors----------
+import p1 from "../images/sponsors/sponsors 2021/1P-logo.png";
+import balsamiq from "../images/sponsors/sponsors 2021/balsamiq.png";
+import cyb from "../images/sponsors/sponsors 2021/cybrancee.png";
+import heiphen from "../images/sponsors/sponsors 2021/heiphen.png";
+import mentor from "../images/sponsors/sponsors 2021/mentor.png";
+import robotix from "../images/sponsors/sponsors 2021/robotix.png";
+
+import hackcbs from "../images/sponsors/sponsors 2021/hackcbs.png";
+import foss from "../images/sponsors/sponsors 2021/foss.png";
+
+
+
+
+
+
+
 
 class Sponsors extends Component {
   render() {
@@ -48,11 +75,45 @@ class Sponsors extends Component {
                 />
               </a>
             </div>
+            <div className="column large3 medium4 small5">
+              <a href="https://cybrancee.com/" target="blank">
+                <img
+                  src={cyb}
+                  className="center"
+                  style={{ width: "100%",paddingLeft:"16px" }}
+                  alt="altimage"
+                />
+              </a>
+            </div>
           </div>
 
           <div className="page_container Sapling">
             <h4 className="ta_center">Sapling</h4>
             <br />
+            <div className="column large2 medium4 small6">
+              <a href="https://egghead.io/" target="blank">
+                <img
+                  src={Egg}
+                  className="center"
+                  style={{ width: "80%", paddingTop: "10px" }}
+                  alt="altimage"
+                />
+              </a>
+              <br />
+              <br />
+            </div>
+            <div className="column large2 medium4 small6">
+              <a href="https://taskade.com/" target="blank">
+                <img
+                  src={taskade}
+                  className="center"
+                  style={{ width: "80%", paddingTop: "10px" }}
+                  alt="altimage"
+                />
+              </a>
+              <br />
+              <br />
+            </div>
             <div className="column large2 medium4 small6">
               <a href="https://polygon.technology/" target="blank">
                 <img
@@ -65,7 +126,42 @@ class Sponsors extends Component {
               <br />
               <br />
             </div>
-
+            <div className="column large2 medium4 small6">
+              <a href="https://hackclub.com/" target="blank">
+                <img
+                  src={HCflag}
+                  className="center"
+                  style={{ width: "80%", paddingTop: "10px" }}
+                  alt="altimage"
+                />
+              </a>
+              <br />
+              <br />
+            </div>
+            <div className="column large2 medium4 small6">
+              <a href="https://gen.xyz/" target="blank">
+                <img
+                  src={XYZ}
+                  className="center"
+                  style={{ width: "80%", paddingTop: "10px" }}
+                  alt="altimage"
+                />
+              </a>
+              <br />
+              <br />
+            </div>
+            <div className="column large2 medium4 small6">
+              <a href="https://www.axure.com" target="blank">
+                <img
+                  src={axure}
+                  className="center"
+                  style={{ width: "80%", paddingTop: "10px" }}
+                  alt="altimage"
+                />
+              </a>
+              <br />
+              <br />
+            </div>
             <div className="column large2 medium4 small6">
               <a href="https://tezos.com" target="blank">
                 <img
@@ -86,6 +182,22 @@ class Sponsors extends Component {
                 />
               </a>
             </div>
+            <div className="column large2 medium4 small6">
+              <a href="https://rosenfeldmedia.com/" target="blank">
+                <img
+                  src={RM}
+                  className="center"
+                  style={{ width: "90%" }}
+                  alt="altimage"
+                />
+              </a>
+            </div>
+
+
+            
+
+
+
             <div className="column large2 medium4 small6 tezos-img">
               <a href="https://filecoin.io/" target="blank">
                 <img
@@ -96,7 +208,136 @@ class Sponsors extends Component {
                 />
               </a>
             </div>
+            
+            <div className="column large2 medium4 small6 tezos-img">
+              <a href="https://balsamiq.com/" target="blank">
+                <img
+                  src={balsamiq}
+                  className="center"
+                  style={{ width: "90%" }}
+                  alt="altimage"
+                />
+              </a>
+            </div>
+            <div className="column large2 medium4 small6 tezos-img">
+              <a href="https://heiphen.com" target="blank">
+                <img
+                  src={heiphen}
+                  className="center"
+                  style={{ width: "70%" }}
+                  alt="altimage"
+                />
+              </a>
+            </div>
+            <div className="column large2 medium4 small6 tezos-img">
+              <a href="https://1password.com/" target="blank">
+                <img
+                  src={p1}
+                  className="center"
+                  style={{ width: "70%" }}
+                  alt="altimage"
+                />
+              </a>
+            </div>
+            <div className="column large2 medium4 small6">
+              <a href="https://thementorx.com/" target="blank">
+                <img
+                  src={mentor}
+                  className="center"
+                  style={{ width: "80%", paddingTop: "10px" }}
+                  alt="altimage"
+                />
+              </a>
+              <br />
+              <br />
+            </div>
+
+            <div className="column large2 medium4 small6">
+              <a href="https://hoverrobotix.com/" target="blank">
+                <img
+                  src={robotix}
+                  className="center"
+                  style={{ width: "80%", paddingTop: "10px" }}
+                  alt="altimage"
+                />
+              </a>
+              <br />
+              <br />
+            </div>
           </div>
+          
+          <div className="page_container">
+            <h4 className="ta_center">Shoot</h4>
+            <br />
+            <div className="column large2 medium4 small6">
+              <a href="https://www.givemycertificate.com/" target="blank">
+                <img
+                  src={GMC}
+                  className="center"
+                  style={{ width: "80%", paddingTop: "10px" }}
+                  alt="altimage"
+                />
+              </a>
+              <br />
+              <br />
+            </div>
+            <div className="column large2 medium4 small6">
+              <a href="https://www.stickeryou.com/" target="blank">
+                <img
+                  src={SY}
+                  className="center"
+                  style={{ width: "80%", paddingTop: "10px" }}
+                  alt="altimage"
+                />
+              </a>
+              <br />
+              <br />
+            </div>
+            <div className="column large2 medium4 small6">
+            <a href="https://iotreeminds.com/" target="blank">
+                <img
+                  src={Iotree}
+                  className="center"
+                  style={{ width: "80%", paddingTop: "10px" }}
+                  alt="altimage"
+                />
+              </a>
+              <br />
+              <br />
+            </div>
+
+          
+        
+          </div>
+          <div className="page_container Sapling">
+            <h4 className="ta_center">Community Sponsor</h4>
+            <br />
+            <div className="column large2 medium4 small6">
+              <a href="https://hackcbs.tech/" target="blank">
+                <img
+                  src={hackcbs}
+                  className="center"
+                  style={{ width: "100%", paddingTop: "10px" }}
+                  alt="altimage"
+                />
+              </a>
+              <br />
+              <br />
+            </div>
+            <div className="column large2 medium4 small6">
+              <a href="https://fossunited.org/fosshack/" target="blank">
+                <img
+                  src={foss}
+                  className="center"
+                  style={{ width: "100%", padding: "16px" }}
+                  alt="altimage"
+                />
+              </a>
+              <br />
+              <br />
+            </div>
+            
+            </div>
         </div>
       </div>
       /*
