@@ -17,10 +17,10 @@ import RM from "../images/sponsors/sponsors 2021/RM-Logo.png";
 import SY from "../images/sponsors/sponsors 2021/SY.png";
 import Iotree from "../images/sponsors/sponsors 2021/Iotree.png";
 // ---------new sponsors----------
-// import P1 from "../images/sponsors/sponsors 2021/1P-logo.png";
-// import balsamiq from "../images/sponsors/sponsors 2021/balsamiq.png";
-// import cyb from "../images/sponsors/sponsors 2021/cybrancee.png";
-// import heiphen from "../images/sponsors/sponsors 2021/heiphen.png";
+import p1 from "../images/sponsors/sponsors 2021/1P-logo.png";
+import balsamiq from "../images/sponsors/sponsors 2021/balsamiq.png";
+import cyb from "../images/sponsors/sponsors 2021/cybrancee.png";
+import heiphen from "../images/sponsors/sponsors 2021/heiphen.png";
 
 import hackcbs from "../images/sponsors/sponsors 2021/hackcbs.png";
 
@@ -68,6 +68,16 @@ class Sponsors extends Component {
                   src={devfolio}
                   className="center"
                   style={{ width: "100%" }}
+                  alt="altimage"
+                />
+              </a>
+            </div>
+            <div className="column large3 medium4 small5">
+              <a href="https://cybrancee.com/" target="blank">
+                <img
+                  src={cyb}
+                  className="center"
+                  style={{ width: "100%",paddingLeft:"16px" }}
                   alt="altimage"
                 />
               </a>
@@ -189,6 +199,36 @@ class Sponsors extends Component {
                 />
               </a>
             </div>
+            <div className="column large2 medium4 small6 tezos-img">
+              <a href="https://1password.com/" target="blank">
+                <img
+                  src={p1}
+                  className="center"
+                  style={{ width: "70%" }}
+                  alt="altimage"
+                />
+              </a>
+            </div>
+            <div className="column large2 medium4 small6 tezos-img">
+              <a href="https://balsamiq.com/" target="blank">
+                <img
+                  src={balsamiq}
+                  className="center"
+                  style={{ width: "90%" }}
+                  alt="altimage"
+                />
+              </a>
+            </div>
+            <div className="column large2 medium4 small6 tezos-img">
+              <a href="revahack.com" target="blank">
+                <img
+                  src={heiphen}
+                  className="center"
+                  style={{ width: "70%" }}
+                  alt="altimage"
+                />
+              </a>
+            </div>
           </div>
           
           <div className="page_container">
@@ -219,14 +259,14 @@ class Sponsors extends Component {
               <br />
             </div>
             <div className="column large2 medium4 small6">
-              
+            <a href="https://iotreeminds.com/" target="blank">
                 <img
                   src={Iotree}
                   className="center"
                   style={{ width: "80%", paddingTop: "10px" }}
                   alt="altimage"
                 />
-              
+              </a>
               <br />
               <br />
             </div>
