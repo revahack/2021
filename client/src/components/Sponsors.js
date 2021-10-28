@@ -23,6 +23,7 @@ import cyb from "../images/sponsors/sponsors 2021/cybrancee.png";
 import heiphen from "../images/sponsors/sponsors 2021/heiphen.png";
 import mentor from "../images/sponsors/sponsors 2021/mentor.png";
 import robotix from "../images/sponsors/sponsors 2021/robotix.png";
+import evo from "../images/sponsors/sponsors 2021/evo.jpg";
 
 import hackcbs from "../images/sponsors/sponsors 2021/hackcbs.png";
 import foss from "../images/sponsors/sponsors 2021/foss.png";
@@ -256,6 +257,19 @@ class Sponsors extends Component {
               <a href="https://hoverrobotix.com/" target="blank">
                 <img
                   src={robotix}
+                  className="center"
+                  style={{ width: "80%", paddingTop: "10px" }}
+                  alt="altimage"
+                />
+              </a>
+              <br />
+              <br />
+            </div>
+
+            <div className="column large2 medium4 small6">
+              <a href="https://www.ecrivonsgraphology.com/" target="blank">
+                <img
+                  src={evo}
                   className="center"
                   style={{ width: "80%", paddingTop: "10px" }}
                   alt="altimage"
