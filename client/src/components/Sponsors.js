@@ -21,8 +21,11 @@ import p1 from "../images/sponsors/sponsors 2021/1P-logo.png";
 import balsamiq from "../images/sponsors/sponsors 2021/balsamiq.png";
 import cyb from "../images/sponsors/sponsors 2021/cybrancee.png";
 import heiphen from "../images/sponsors/sponsors 2021/heiphen.png";
+import mentor from "../images/sponsors/sponsors 2021/mentor.png";
+import robotix from "../images/sponsors/sponsors 2021/robotix.png";
 
 import hackcbs from "../images/sponsors/sponsors 2021/hackcbs.png";
+import foss from "../images/sponsors/sponsors 2021/foss.png";
 
 
 
@@ -189,12 +192,39 @@ class Sponsors extends Component {
                 />
               </a>
             </div>
+
+
+            
+
+
+
             <div className="column large2 medium4 small6 tezos-img">
               <a href="https://filecoin.io/" target="blank">
                 <img
                   src={filecoin}
                   className="center"
                   style={{ width: "90%" }}
+                  alt="altimage"
+                />
+              </a>
+            </div>
+            
+            <div className="column large2 medium4 small6 tezos-img">
+              <a href="https://balsamiq.com/" target="blank">
+                <img
+                  src={balsamiq}
+                  className="center"
+                  style={{ width: "90%" }}
+                  alt="altimage"
+                />
+              </a>
+            </div>
+            <div className="column large2 medium4 small6 tezos-img">
+              <a href="https://heiphen.com" target="blank">
+                <img
+                  src={heiphen}
+                  className="center"
+                  style={{ width: "70%" }}
                   alt="altimage"
                 />
               </a>
@@ -209,25 +239,30 @@ class Sponsors extends Component {
                 />
               </a>
             </div>
-            <div className="column large2 medium4 small6 tezos-img">
-              <a href="https://balsamiq.com/" target="blank">
+            <div className="column large2 medium4 small6">
+              <a href="https://thementorx.com/" target="blank">
                 <img
-                  src={balsamiq}
+                  src={mentor}
                   className="center"
-                  style={{ width: "90%" }}
+                  style={{ width: "80%", paddingTop: "10px" }}
                   alt="altimage"
                 />
               </a>
+              <br />
+              <br />
             </div>
-            <div className="column large2 medium4 small6 tezos-img">
-              <a href="revahack.com" target="blank">
+
+            <div className="column large2 medium4 small6">
+              <a href="https://hoverrobotix.com/" target="blank">
                 <img
-                  src={heiphen}
+                  src={robotix}
                   className="center"
-                  style={{ width: "70%" }}
+                  style={{ width: "80%", paddingTop: "10px" }}
                   alt="altimage"
                 />
               </a>
+              <br />
+              <br />
             </div>
           </div>
           
@@ -283,6 +318,18 @@ class Sponsors extends Component {
                   src={hackcbs}
                   className="center"
                   style={{ width: "100%", paddingTop: "10px" }}
+                  alt="altimage"
+                />
+              </a>
+              <br />
+              <br />
+            </div>
+            <div className="column large2 medium4 small6">
+              <a href="https://fossunited.org/fosshack/" target="blank">
+                <img
+                  src={foss}
+                  className="center"
+                  style={{ width: "100%", padding: "16px" }}
                   alt="altimage"
                 />
               </a>
