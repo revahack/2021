@@ -76,6 +76,15 @@ function Cover(props) {
             <img src={discord} alt="discord" />
           </a>
         </div>
+        <div className="column large6 disB small12">
+          <a
+            href="https://revahack21.devfolio.co/"
+            target="blank"
+            className="register"
+          >
+            <span>Or Register Here</span>
+          </a>
+        </div>
       </div>
     </div>
   );
