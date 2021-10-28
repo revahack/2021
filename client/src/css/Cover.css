@@ -265,11 +265,12 @@ sub {
     /* width: 295px; */
   }
 
-  }
+  
 
   .btcl {
     margin: 0 auto;
   }
+
 }
 
 .register {
@@ -288,4 +289,4 @@ sub {
   }
   
 
-}
+
