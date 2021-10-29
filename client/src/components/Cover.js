@@ -85,6 +85,9 @@ function Cover(props) {
             <span>Or Register Here</span>
           </a>
         </div>
+          <br/>
+          <br/>
+          <br/>
       </div>
     </div>
   );
