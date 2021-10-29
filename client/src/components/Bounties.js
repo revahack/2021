@@ -12,7 +12,7 @@ function Bounties() {
       <h1 className="title">Bounties</h1>
       <div className="Bdiv">
         <div className="copy-box two">
-          <h3></h3>
+          
           <div className="inner">
           
           <img
@@ -40,7 +40,7 @@ function Bounties() {
       </div>
       <div className="Bdiv">
         <div className="copy-box two">
-          <h3></h3>
+          
           <div className="inner">
        
           <img
@@ -69,7 +69,7 @@ function Bounties() {
       </div>
       <div className="Bdiv">
         <div className="copy-box two">
-          <h3></h3>
+          
           <div className="inner">
           <img
                   src={celo}
@@ -96,7 +96,7 @@ function Bounties() {
       </div>
       <div className="Bdiv">
         <div className="copy-box two">
-          <h3></h3>
+          
           <div className="inner">
           <img
                   src={filecoin}
