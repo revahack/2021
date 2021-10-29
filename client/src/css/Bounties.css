@@ -81,19 +81,6 @@
   -webkit-backdrop-filter: blur(4px);
 }
 
-.bounties a {
-  position: relative;
-  bottom: 5rem;
-  padding: 0.5rem 2rem;
-  background-color: #fcfcfc;
-  color: black;
-  border-radius: 30px;
-}
-
-.bounties a:hover {
-  background-color: black;
-  color: #fcfcfc;
-}
 
 .bounties img {
   width: 100%;
@@ -115,3 +102,15 @@
     margin: auto;
   }
 }
+
+
+
+/* CSS */
+.buttonz{
+  background-color: rgb(5, 61, 114);
+  color: white;
+  padding: .8em 1.2em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
