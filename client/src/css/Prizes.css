@@ -65,6 +65,7 @@ table {
   margin: 4px 2px;
   cursor: pointer;
 }
+
 #pp {
   padding-bottom: 20px;
 }
@@ -165,6 +166,7 @@ table {
     font-size: 21px;
   }
 }
+
 @media screen and (min-width: 360px) and (max-width: 411px) {
   table {
     margin: -40px auto 0 auto;
@@ -251,6 +253,7 @@ table {
 }
 
 .title {
+  padding: 0.5em;
   font-size: 7.5vh;
 }
 h1,
@@ -272,5 +275,36 @@ button {
 @media (max-width: 640px) {
   .prizes {
     margin-left: 0px;
+  }
+}
+
+.small-headings {
+  text-align: center;
+  /* text-transform: capitalize; */
+}
+
+@media screen and (min-width: 992px) {
+  .highlight {
+    transition: 0.3s all;
+  }
+  .highlight:hover {
+    letter-spacing: 4px;
+    text-shadow: 4px 3px 10px #0968ce;
+
+    /* text-shadow: 5px 4px 11px #0968ce; */
+    transform: scale(1.1);
+  }
+  .med-text {
+    font-size: 2.5em;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .make-it-small {
+    /* padding: 2px; */
+    font-size: 3.5em;
+  }
+  .make-it-extra-small {
+    font-size: 2em;
   }
 }
