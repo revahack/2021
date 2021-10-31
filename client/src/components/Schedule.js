@@ -23,8 +23,8 @@ class Schedule extends Component {
         <hr className="hrv" />
         <div id="circle2">
           <div className="ddl">
-            <div className="pclass">12:00 HOURS 7/11/2021</div>
-            APPLICATION CLOSES
+            <div className="pclass">10:00 HOURS 8/11/2021</div>
+            SPEAKER SESSION
           </div>
         </div>
         <hr className="hrv" />

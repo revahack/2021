@@ -71,12 +71,7 @@ class FAQ extends Component {
             </p>
           </div>
 
-          <div className="collapsible">
-            <button className="collapsible_button">
-              When is the last date for registration?
-            </button>
-            <p>1st November 2021 is the last date for registration.</p>
-          </div>
+          
 
           <div className="collapsible">
             <button className="collapsible_button">
