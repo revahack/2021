@@ -26,14 +26,7 @@ import robotix from "../images/sponsors/sponsors 2021/robotix.png";
 import evo from "../images/sponsors/sponsors 2021/evo.jpg";
 
 import hackcbs from "../images/sponsors/sponsors 2021/hackcbs.png";
-import foss from "../images/sponsors/sponsors 2021/foss.png";
-
-
-
-
-
-
-
+import foss from "../images/sponsors/sponsors 2021/foss.jpeg";
 
 class Sponsors extends Component {
   render() {
@@ -81,7 +74,7 @@ class Sponsors extends Component {
                 <img
                   src={cyb}
                   className="center"
-                  style={{ width: "100%",paddingLeft:"16px" }}
+                  style={{ width: "100%", paddingLeft: "16px" }}
                   alt="altimage"
                 />
               </a>
@@ -194,11 +187,6 @@ class Sponsors extends Component {
               </a>
             </div>
 
-
-            
-
-
-
             <div className="column large2 medium4 small6 tezos-img">
               <a href="https://filecoin.io/" target="blank">
                 <img
@@ -209,7 +197,7 @@ class Sponsors extends Component {
                 />
               </a>
             </div>
-            
+
             <div className="column large2 medium4 small6 tezos-img">
               <a href="https://balsamiq.com/" target="blank">
                 <img
@@ -279,7 +267,7 @@ class Sponsors extends Component {
               <br />
             </div>
           </div>
-          
+
           <div className="page_container">
             <h4 className="ta_center">Shoot</h4>
             <br />
@@ -308,7 +296,7 @@ class Sponsors extends Component {
               <br />
             </div>
             <div className="column large2 medium4 small6">
-            <a href="https://iotreeminds.com/" target="blank">
+              <a href="https://iotreeminds.com/" target="blank">
                 <img
                   src={Iotree}
                   className="center"
@@ -319,14 +307,11 @@ class Sponsors extends Component {
               <br />
               <br />
             </div>
-
-          
-        
           </div>
           <div className="page_container Sapling">
             <h4 className="ta_center">Community Sponsor</h4>
             <br />
-            <div className="column large2 medium4 small6">
+            {/* <div className="column large2 medium4 small6">
               <a href="https://hackcbs.tech/" target="blank">
                 <img
                   src={hackcbs}
@@ -349,9 +334,60 @@ class Sponsors extends Component {
               </a>
               <br />
               <br />
-            </div>
-            
-            </div>
+            </div> */}
+            <div class="container">
+              <div class="card">
+                <div>
+                  <img src={hackcbs} alt="TrackCover" />
+                </div>
+                
+                </div>
+                <div >
+                <div style={{marginTop:"40%",alignContent:"center"} }>
+                  <p>hackCBS 4.0, LEARN. TEACH. HACK. WIN </p>
+                  <p> Happening on 29th-31 oct 2021.</p>
+                  <br />
+                  <p>
+                    INDIA'S LARGEST STUDENT-RUN HACKATHON. PRIZES WORTH $50,000!
+                  </p>
+                  <p>Registration open at www.hackcbs.tech</p>
+                  <br /><br/>
+                  <pre>48 HOURS HACKATHON!</pre>
+                
+                  <pre>INTERACTIVE WORKSHOPS!</pre>
+                  
+                  <pre>SWAGS FOR ALL!     NETWORKING!</pre>
+                </div>
+              </div>
+              </div>
+              <br/>
+              <div class="container">
+              <div class="card">
+                <div>
+                  <img src={foss} alt="TrackCover" />
+                </div>
+                
+                </div>
+                <div >
+                <div style={{marginTop:"15%",alignContent:"center"}}>
+                  <p>
+                    Announcing FOSS Hack 2021, second edition of FOSS Hack.</p>
+                   <p> Happening on 13th-14th Nov.
+                  </p>
+                  <br/>
+                  <p>
+                    Join India's Biggest FOSS Hackathon and win up to ₹10 Lakh.
+                  </p>
+                  <p>Registration open at fossunited.org/fosshack</p>
+                  <br/>
+                  <p>@FOSSUnited</p>
+                  <br/>
+                  <p>#FOSSHack2021 #FOSSUnited</p>
+                </div>
+              </div>
+              </div>
+          
+          </div>
         </div>
       </div>
       /*
