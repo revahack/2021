@@ -34,6 +34,10 @@ class Prizes extends Component {
             <h1 className="ta_center">INR 20,000</h1>
             <h3 className="ta_center">+</h3>
             <h3 className="ta_center make-it-extra-small med-text">
+              Clerky Lifetime Package worth $799
+            </h3>
+            <h3 className="ta_center">+</h3>
+            <h3 className="ta_center make-it-extra-small med-text">
               Goodies,Swags and a Whole Lot More,
             </h3>
             <h3 className="ta_center make-it-extra-small med-text">
