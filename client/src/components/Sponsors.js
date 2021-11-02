@@ -28,6 +28,10 @@ import evo from "../images/sponsors/sponsors 2021/evo.jpg";
 import hackcbs from "../images/sponsors/sponsors 2021/hackcbs.png";
 import foss from "../images/sponsors/sponsors 2021/foss.jpeg";
 
+import clerky from "../images/sponsors/sponsors 2021/Clerky_Logo.jpg";
+
+ 
+
 class Sponsors extends Component {
   render() {
     return (
@@ -75,6 +79,16 @@ class Sponsors extends Component {
                   src={cyb}
                   className="center"
                   style={{ width: "100%", paddingLeft: "16px" }}
+                  alt="altimage"
+                />
+              </a>
+            </div>
+            <div className="column large3 medium4 small5">
+              <a href="https://www.clerky.com/" target="blank">
+                <img
+                  src={clerky}
+                  className="center"
+                  style={{ width: "80%", paddingLeft: "16px",marginTop:"12px" }}
                   alt="altimage"
                 />
               </a>
