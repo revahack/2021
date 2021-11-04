@@ -41,7 +41,7 @@ class Prizes extends Component {
               Goodies,Swags and a Whole Lot More,
             </h3>
             <h3 className="ta_center make-it-extra-small med-text">
-              From Our Lovely Sponsers.
+              From Our Lovely Sponsors.
             </h3>
             <br />
             <br />
