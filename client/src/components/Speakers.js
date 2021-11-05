@@ -1,183 +1,174 @@
 import React from "react";
-import "../css/Speakers.css";
-import Punit_Chawla from "../images/speakers/Punit_Chawla.jpg";
-import Ahmed_aqib from "../images/speakers/Ahmed_aqib.jpg";
-import Akash_James from "../images/speakers/Akash_James.jpeg";
-import Kunal_Kushwaha from "../images/speakers/Kunal_Kushwaha.jpg";
-import SMR from "../images/speakers/Singam_Mohit_Reddy.png";
-import AG from "../images/speakers/Alon_Grinshpoon.png";
-import EP from "../images/speakers/Emily_Perry.jpg";
-import SREE from "../images/speakers/shreevallabha.jpg";
-import Himanshu from "../images/speakers/Himanshu_Ranjan.png";
-import Vishnu from "../images/speakers/Vishnu.jpeg";
 
-// I have removed the target=_blank for NetworkInformation.apply..when including
-// it please make sure to add rel="noopener noreferrer"
-// ~D3lta
+import "../css/Speakers.scss";
+import Anjali from "../images/speakers/anjali.jpg";
+import Suraj from "../images/speakers/suraj.png";
+import Bharath from "../images/speakers/bharath.jpg";
+import Praharshit from "../images/speakers/praharshit.jpg";
+import Amya from "../images/speakers/amya.jpg";
+import Kushal from "../images/speakers/kushal.jpg";
+import Nitin from "../images/speakers/nitin.jpg";
+import linkedin from "../images/speakers/linkedin.png";
 
 function Speakers() {
   return (
-    <div className="speakers">
-      <div className="page_container">
+    <div>
+      <div>
+        <h1 style={{ textAlign: "center" }}>Speakers</h1>
         <br />
-        <br />
-        <h1 className="ta_center title">Speakers</h1>
-        <br />
-        <br />
-
-        <div className="column large10 medium12 small12 center spk">
-          <div
-            className="column large4 medium8 small12"
-            style={{ margin: "0.2rem" }}
-          >
-            <a href="https://www.linkedin.com/in/punitweb">
+      </div>
+      <div className="main">
+        <figure class="image-block">
+          <img src={Anjali} alt="" />
+          <figcaption>
+            <h4>Anjali viramgama</h4>
+            <p>
+              <b>Software Engineer at Microsoft </b>
+            </p>
+            <a
+              href="https://www.linkedin.com/in/anjali-viramgama/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
-                className="column large12 medium12 small12"
-                src={Punit_Chawla}
-                alt="Our Speakers"
+                src={linkedin}
+                style={{ height: "25px", width: "25px" }}
+                alt=""
               />
-              <h6 className="primary_white nametag">Punit Chawla</h6>
             </a>
-          </div>
+          </figcaption>
+        </figure>
 
-          <div
-            className="column large4 medium8 small12"
-            style={{ margin: "0.2rem" }}
-          >
-            <a href="https://www.linkedin.com/in/alongrinshpoon">
+        <figure class="image-block">
+          <img src={Suraj} alt="" />
+          <figcaption>
+            <h4> Suraj wodeyar</h4>
+            <p>
+              <b>Founder and CEO of Drona Automations</b>
+            </p>
+            <a
+              href="https://www.linkedin.com/in/suraj-wodeyar-1796a4114/?originalSubdomain=in"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
-                className="column large12 medium12 small12"
-                src={AG}
-                alt="Our Speakers"
+                src={linkedin}
+                style={{ height: "25px", width: "25px" }}
+                alt=""
               />
-              <h6 className="primary_white nametag">Alon Grinshpoon</h6>
             </a>
-          </div>
+          </figcaption>
+        </figure>
 
-          <div
-            className="column large4 medium8 small12"
-            style={{ margin: "0.2rem" }}
-          >
-            <a href="https://www.linkedin.com/in/ahmed-aqib">
+        <figure class="image-block">
+          <img src={Amya} alt="" />
+          <figcaption>
+            <h4>Amya madan</h4>
+            <p>
+              <b>Founder, Écrivons-You write, We discover</b>
+            </p>
+            <a
+              href="https://www.linkedin.com/in/amya-madan-0912am1/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
-                className="column large12 medium12 small12"
-                src={Ahmed_aqib}
-                alt="Our Speakers"
+                src={linkedin}
+                style={{ height: "25px", width: "25px" }}
+                alt=""
               />
-              <h6 className="primary_white nametag">Aqib Ahmed</h6>
             </a>
-          </div>
-        </div>
-
-        <div className="column large10 medium12 small12 center spk">
-          <div
-            className="column large4 medium8 small12"
-            style={{ margin: "0.2rem" }}
-          >
-            <a href="https://www.linkedin.com/in/akashjames">
-              <img
-                className="column large12 medium12 small12"
-                src={Akash_James}
-                alt="Our Speakers"
-              />
-              <h6 className="primary_white nametag">Akash James</h6>
-            </a>
-          </div>
-
-          <div
-            className="column large4 medium8 small12"
-            style={{ margin: "0.2rem" }}
-          >
-            <a href="https://www.linkedin.com/in/singam-mohit-reddy-a96a01152">
-              <img
-                className="column large12 medium12 small12"
-                src={SMR}
-                alt="Our Speakers"
-              />
-              <h6 className="primary_white nametag">Singam Mohit Reddy</h6>
-            </a>
-          </div>
-
-          <div
-            className="column large4 medium8 small12"
-            style={{ margin: "0.2rem" }}
-          >
-            <a href="https://www.linkedin.com/in/kunal-kushwaha">
-              <img
-                className="column large12 medium12 small12"
-                src={Kunal_Kushwaha}
-                alt="Our Speakers"
-              />
-              <h6 className="primary_white nametag">Kunal Kushwaha</h6>
-            </a>
-          </div>
-        </div>
-
-        <div className="column large10 medium12 small12 center spk">
-          <div
-            className="column large4 medium8 small12"
-            style={{ margin: "0.2rem" }}
-          >
-            <a href="https://www.linkedin.com/in/epperry3">
-              <img
-                className="column large12 medium12 small12"
-                src={EP}
-                alt="Our Speakers"
-              />
-              <h6 className="primary_white nametag">Emily Perry</h6>
-            </a>
-          </div>
-
-          <div
-            className="column large4 medium8 small12"
-            style={{ margin: "0.2rem" }}
-          >
-            <a href="https://www.linkedin.com/in/asv0018">
-              <img
-                className="column large12 medium12 small12"
-                src={SREE}
-                alt="Our Speakers"
-              />
-              <h6 className="primary_white nametag">Sreevallabha</h6>
-            </a>
-          </div>
-
-          <div
-            className="column large4 medium8 small12"
-            style={{ margin: "0.2rem" }}
-          >
-            <a href="https://www.linkedin.com/in/himanshuranjan30">
-              <img
-                className="column large12 medium12 small12"
-                src={Himanshu}
-                alt="Our Speakers"
-              />
-              <h6 className="primary_white nametag">Himanshu Ranjan</h6>
-            </a>
-          </div>
-        </div>
-
-        <div className="column large10 medium12 small12 center spk">
-          <div
-            className="column large4 medium8 small12"
-            style={{ margin: "0.2rem" }}
-          >
-            <a href="https://www.linkedin.com/in/vishnu-sai-224004195">
-              <img
-                className="column large12 medium12 small12"
-                src={Vishnu}
-                alt="Our Speakers"
-              />
-              <h6 className="primary_white nametag">Vishnu Sai</h6>
-            </a>
-          </div>
-        </div>
+          </figcaption>
+        </figure>
       </div>
 
-      <br />
-      <br />
-      <br />
-      <br />
+      <div className="main block">
+        <figure class="image-block">
+          <img src={Nitin} alt="" />
+          <figcaption>
+            <h4>Nitin Prakash</h4>
+            <p>
+              <b>Senior Software Engineer at Byju's</b>
+            </p>
+            <a
+              href="https://www.linkedin.com/in/nitin-prakash9911"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={linkedin}
+                style={{ height: "25px", width: "25px" }}
+                alt=""
+              />
+            </a>
+          </figcaption>
+        </figure>
+
+        <figure class="image-block">
+          <img src={Bharath} alt="" />
+          <figcaption>
+            <h4>Bharath jairam</h4>
+            <p>
+              <b>Founder and director at IOTREE MINDS LLP</b>
+            </p>
+            <a
+              href="https://www.linkedin.com/in/bharath-jairam-509407172/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={linkedin}
+                style={{ height: "25px", width: "25px" }}
+                alt=""
+              />
+            </a>
+          </figcaption>
+        </figure>
+
+        <figure class="image-block">
+          <img src={Kushal} alt="" />
+          <figcaption style={{ opacity: "0.8" }}>
+            <h4>Kushal Vijay</h4>
+            <p>
+              <b>Software Engineer at Microsoft</b>
+            </p>
+            <a
+              href="https://www.linkedin.com/in/kushalvijay"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={linkedin}
+                style={{ height: "25px", width: "25px" }}
+                alt=""
+              />
+            </a>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div className="main block">
+        <figure class="image-block">
+          <img src={Praharshit} alt="" />
+          <figcaption>
+            <h4>Praharshit Sharma </h4>
+            <p>
+              <b>Bioinformatics Specialist with NCDC, GOI</b>
+            </p>
+            <a
+              href="https://www.linkedin.com/in/bioinformaticsharma"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={linkedin}
+                style={{ height: "25px", width: "25px" }}
+                alt=""
+              />
+            </a>
+          </figcaption>
+        </figure>
+      </div>
     </div>
   );
 }
