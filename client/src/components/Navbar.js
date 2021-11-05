@@ -42,7 +42,7 @@ class Navbar extends Component {
           </NavLink>
           <br />
           <br />
-          <NavLink to="/comingsoon" className="pivot_button">
+          <NavLink to="/speakers" className="pivot_button">
             <IconContext.Provider
               value={{
                 color: "#08F7FE",
@@ -86,7 +86,7 @@ class Navbar extends Component {
               style={{ height: 45 + "px", width: 45 + "px" }}
             ></img>
           </NavLink>
-          <NavLink to="/comingsoon" className="primary_white ta_center">
+          <NavLink to="/speakers" className="primary_white ta_center">
             <img
               className="def"
               src={users}
