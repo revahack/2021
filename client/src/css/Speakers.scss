@@ -60,6 +60,7 @@ figure {
     bottom: -33%;
     left: 0;
     width: 100%;
+    overflow-wrap: break-word;
 
     margin: 0;
     padding-bottom: 9%;
@@ -69,6 +70,7 @@ figure {
     color: #262a53;
     line-height: 1;
     transition: 0.25s;
+    
     h4 {
       padding-bottom: 2%;
       text-align: center;
@@ -76,11 +78,18 @@ figure {
 
       color: #fefbf3;
     }
+    .mPb{
+      font-size: 12px;
+      line-height:1 ;
+      
+    }
     p {
       font-size: 14px;
       line-height: 1.75;
       color: #fefbf3;
+      
     }
+    
   }
 }
 
