@@ -2,7 +2,7 @@ import React from "react";
 
 import "../css/Speakers.scss";
 import Anjali from "../images/speakers/anjali.jpg";
-import Suraj from "../images/speakers/suraj.png";
+import Mehul from "../images/speakers/Mehul.png";
 import Bharath from "../images/speakers/bharath.jpg";
 import Praharshit from "../images/speakers/praharshit.jpg";
 import Amya from "../images/speakers/amya.jpg";
@@ -41,14 +41,18 @@ function Speakers() {
         </figure>
 
         <figure class="image-block">
-          <img src={Suraj} alt="" />
-          <figcaption>
-            <h4> Suraj wodeyar</h4>
-            <p>
-              <b>Founder and CEO of Drona Automations</b>
+          <img src={Mehul} alt="" />
+          <figcaption >
+            <h4>Mehul Patel</h4>
+            
+            <p class="mPb">
+              <b>Mozilla Reps mentor,<br/>AWS Community Builder,
+                2x Certified AWS & GC 
+                </b>
             </p>
+        
             <a
-              href="https://www.linkedin.com/in/suraj-wodeyar-1796a4114/?originalSubdomain=in"
+              href="https://www.linkedin.com/in/nomadicmehul"
               target="_blank"
               rel="noopener noreferrer"
             >
