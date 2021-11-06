@@ -9,6 +9,7 @@ import Amya from "../images/speakers/amya.jpg";
 import Kushal from "../images/speakers/kushal.jpg";
 import Nitin from "../images/speakers/nitin.jpg";
 import linkedin from "../images/speakers/linkedin.png";
+import Shreevallabha from "../images/speakers/shreevallabha.jpg";
 
 function Speakers() {
   return (
@@ -105,14 +106,14 @@ function Speakers() {
         </figure>
 
         <figure class="image-block">
-          <img src={Bharath} alt="" />
+          <img src={Praharshit} alt="" />
           <figcaption>
-            <h4>Bharath jairam</h4>
+            <h4>Praharshit Sharma </h4>
             <p>
-              <b>Founder and director at IOTREE MINDS LLP</b>
+              <b>Bioinformatics Specialist with NCDC, GOI</b>
             </p>
             <a
-              href="https://www.linkedin.com/in/bharath-jairam-509407172/"
+              href="https://www.linkedin.com/in/bioinformaticsharma"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -148,15 +149,15 @@ function Speakers() {
       </div>
 
       <div className="main block">
-        <figure class="image-block">
-          <img src={Praharshit} alt="" />
+      <figure class="image-block">
+          <img src={Bharath} alt="" />
           <figcaption>
-            <h4>Praharshit Sharma </h4>
+            <h4>Bharath jairam</h4>
             <p>
-              <b>Bioinformatics Specialist with NCDC, GOI</b>
+              <b>Founder and director at IOTREE MINDS LLP</b>
             </p>
             <a
-              href="https://www.linkedin.com/in/bioinformaticsharma"
+              href="https://www.linkedin.com/in/bharath-jairam-509407172/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -168,7 +169,32 @@ function Speakers() {
             </a>
           </figcaption>
         </figure>
+        <figure class="image-block">
+          <img src={Shreevallabha} alt="" />
+          <figcaption>
+            <h4>Shreevallabha A</h4>
+            <p>
+              <b>Founder and director at IOTREE MINDS LLP</b>
+            </p>
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={linkedin}
+                style={{ height: "25px", width: "25px" }}
+                alt=""
+              />
+            </a>
+          </figcaption>
+        </figure>
+        
       </div>
+
+
+
+      
     </div>
   );
 }
