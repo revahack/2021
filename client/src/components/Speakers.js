@@ -157,8 +157,8 @@ function Speakers() {
           <img src={Bharath} alt="" />
           <figcaption>
             <h4>Bharath jairam</h4>
-            <p>
-              <b>Founder and director at IOTREE MINDS LLP</b>
+            <p class="mPb">
+              <b>Founder and director at IOTREE MINDS LLP<br/> and  Miilliionpages.com</b>
             </p>
             <a
               href="https://www.linkedin.com/in/bharath-jairam-509407172/"
