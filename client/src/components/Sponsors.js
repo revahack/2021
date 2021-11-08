@@ -29,6 +29,7 @@ import hackcbs from "../images/sponsors/sponsors 2021/hackcbs.png";
 import foss from "../images/sponsors/sponsors 2021/foss.jpeg";
 
 import clerky from "../images/sponsors/sponsors 2021/Clerky_Logo.jpg";
+import echo3d from "../images/sponsors/sponsors 2021/echo3dlogo.png";
 
  
 
@@ -150,6 +151,18 @@ class Sponsors extends Component {
               <a href="https://gen.xyz/" target="blank">
                 <img
                   src={XYZ}
+                  className="center"
+                  style={{ width: "80%", paddingTop: "10px" }}
+                  alt="altimage"
+                />
+              </a>
+              <br />
+              <br />
+            </div>
+            <div className="column large2 medium4 small6">
+              <a href="https://www.echo3d.co/" target="blank">
+                <img
+                  src={echo3d}
                   className="center"
                   style={{ width: "80%", paddingTop: "10px" }}
                   alt="altimage"
