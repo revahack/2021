@@ -15,7 +15,7 @@ class Prizes extends Component {
           <br />
           <h1 className="ta_center title make-it-small">Total Prize Pool of</h1>
           <h1 className="ta_center title highlight make-it-small hck-h1">
-            INR 50,00,000+
+            INR 2,50,00,000+
           </h1>
 
           <br />
